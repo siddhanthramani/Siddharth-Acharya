@@ -5,6 +5,10 @@ body {
 	text-align: center;	
 }
 
+.navbar,.navbar-default{
+	width: 100vw;
+}
+
 #main-content ul{
 	list-style: none;
 }
@@ -25,6 +29,7 @@ body {
 .navbar-default .navbar-header button{
 	border: 0px;
 }
+
 /*Color of menu items is white in tablet and mob mode*/
 .navbar-default .navbar-nav>li>a{
 	color: white;	
@@ -50,10 +55,7 @@ body {
 	text-decoration: none;
 	color: aquamarine;
 }
-.container{
-	align-content: left;
-	align-items: center;
-}
+
 
 
 /********** Large devices only **********/
@@ -69,9 +71,10 @@ body {
   @media (min-width: 992px) and (max-width: 1199px) {
 	div#main-content {
 		background: url("../images/BG_desktop.png") no-repeat;
-		background-size: contain;
-		width: 50em;
-		height: 28em;
+		background-size: cover;
+		width: 100vw;
+		height: 100vh;
+		
 	}
 	  
 
@@ -81,9 +84,10 @@ body {
   @media (min-width: 768px) and (max-width: 991px) {
 	div#main-content {
 		background: url("../images/BG_desktop.png") no-repeat;
-		background-size: contain;
-		width: 50em;
-		height: 28em;
+		background-size: cover;
+		width: 100vw;
+		height: 100vh;
+		
 	}
 
 }
@@ -92,9 +96,10 @@ body {
   @media (max-width: 767px) {
 	div#main-content {
 		background: url("../images/BG_Tablet&Mobile.png") no-repeat;
-		background-size: contain;
-		width: 30em;
-		height: 27.5em;
+		background-size: cover;
+		width: 100vw;
+		height: 100vh;
+		
 	}
   
 }
