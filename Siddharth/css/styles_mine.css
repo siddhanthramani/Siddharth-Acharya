@@ -28,11 +28,12 @@ body {
 /*Do reduce the size of logo image*/
 .navbar-default .navbar-nav>li>a>span>img{
 	max-width: 20px;
-	height: auto;
+	height: 20px;
 	object-fit: contain;
 	
 	
 }
+
 /*Triple icon border is removed*/
 .navbar-default .navbar-header button{
 	border: 0px;
