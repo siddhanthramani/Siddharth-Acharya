@@ -122,6 +122,7 @@ body {
 	div#main-content {
 		background: url("../images/BG_Tablet&Mobile.png") no-repeat;
 		background-size: cover;
+		background-position-x: center;
 		width: 100vw;
 		height: 100vh;
 		
