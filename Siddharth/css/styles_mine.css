@@ -1,0 +1,91 @@
+body {
+	color: rgb(223, 169, 89);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2em;
+	text-align: center;	
+}
+
+#main-content ul{
+	list-style: none;
+}
+#header-nav {
+	/*
+	Creates a fullbleed black header for all devices
+	*/
+	background-color: black;
+	border-color: black;
+	border-radius: 0%;
+}
+/*Triple icon is white */
+.navbar-default .navbar-toggle .icon-bar{
+	background-color:white  ;
+		
+}
+/*Triple icon border is removed*/
+.navbar-default .navbar-header button{
+	border: 0px;
+}
+/*Color of menu items is white in tablet and mob mode*/
+.navbar-default .navbar-nav>li>a{
+	color: white;	
+	align-self: center;
+}
+/*Color of menu items is blue during hover in tablet and mob mode*/
+.navbar-default .navbar-nav>li>a:hover{
+	color: aquamarine;
+}
+/*So that maincontent starts immediately from the header*/
+.navbar{
+	margin-bottom: 0px;
+}
+/*In desktop mode menu items in white*/
+#Home a,#Story a,#Videos a,#Media a,#Contact a{
+	color: white;
+	float: right;
+
+	
+}
+/*In desktop mode menu items have no underline on hover*/
+#Home a:hover,#Story a:hover,#Videos a:hover,#Media a:hover,#Contact a:hover{
+	text-decoration: none;
+	color: aquamarine;
+}
+.container{
+	align-content: left;
+	align-items: center;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	body{
+		background: url("../images/BG_desktop.png") no-repeat;
+		background-size: cover; 
+	}
+
+}
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+	  
+
+}
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+
+}
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+  
+}
+/*For main content image to start from header in tab and mobile mode*/
+ @media (max-width: 1199px){
+	div#main-content {
+		background: url("../images/BG_desktop.png") no-repeat;
+		background-size: contain;
+		width: 50em;
+		height: 50em;
+	}
+ }
