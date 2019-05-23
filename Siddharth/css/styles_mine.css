@@ -31,7 +31,7 @@ body {
 	height: 20px;
 	object-fit: contain;
 	
-	
+
 }
 /*To reduce the size of Sid Acharya logo image in mob view*/
 .navbar-brand p>img{
@@ -42,6 +42,7 @@ body {
 	 
 		
 }
+/*To make the sid acharya logo look center aligned vertically*/
 .navbar-brand{
 	padding:10px;
 }
@@ -49,6 +50,7 @@ body {
 /*Triple icon border is removed*/
 .navbar-default .navbar-header button{
 	border: 0px;
+	padding-left: 20px;
 }
 
 /*Color of menu items is white in tablet and mob mode*/
