@@ -37,8 +37,13 @@ body {
 .navbar-brand p>img{
 	max-width: 55px;
 	height: auto;
- 	margin-right: 15px;
+	margin-right: 15px;
+    vertical-align: middle;
+	 
 		
+}
+.navbar-brand{
+	padding:10px;
 }
 
 /*Triple icon border is removed*/
