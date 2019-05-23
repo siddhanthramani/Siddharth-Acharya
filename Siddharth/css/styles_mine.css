@@ -4,11 +4,11 @@ body {
 	font-size: 2em;
 	text-align: center;	
 }
-
+/*Makes the navbar extend to the full width of the view port*/
 .navbar,.navbar-default{
 	width: 100vw;
 }
-
+/*Removes buttoned list*/
 #main-content ul{
 	list-style: none;
 }
@@ -24,6 +24,14 @@ body {
 .navbar-default .navbar-toggle .icon-bar{
 	background-color:white  ;
 		
+}
+/*Do reduce the size of logo image*/
+.navbar-default .navbar-nav>li>a>span>img{
+	max-width: 20px;
+	height: auto;
+	object-fit: contain;
+	
+	
 }
 /*Triple icon border is removed*/
 .navbar-default .navbar-header button{
@@ -47,6 +55,8 @@ body {
 #Home a,#Story a,#Videos a,#Media a,#Contact a{
 	color: white;
 	float: right;
+	text-transform: uppercase;
+	font-size: medium;
 
 	
 }
@@ -60,7 +70,7 @@ body {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-	body{
+	body{/*Makes the image cover the body */
 		background: url("../images/BG_desktop.png") no-repeat;
 		background-size: cover; 
 	}
@@ -83,6 +93,7 @@ body {
   /********** Small devices only **********/
   @media (min-width: 768px) and (max-width: 991px) {
 	div#main-content {
+		/*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
 		background: url("../images/BG_desktop.png") no-repeat;
 		background-size: cover;
 		width: 100vw;
@@ -94,6 +105,7 @@ body {
   
   /********** Extra small devices only **********/
   @media (max-width: 767px) {
+	  /*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
 	div#main-content {
 		background: url("../images/BG_Tablet&Mobile.png") no-repeat;
 		background-size: cover;
@@ -103,7 +115,3 @@ body {
 	}
   
 }
-/*For main content image to start from header in tab and mobile mode*/
- @media (max-width: 1199px){
-	
- }
