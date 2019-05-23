@@ -67,25 +67,38 @@ body {
   
   /********** Medium devices only **********/
   @media (min-width: 992px) and (max-width: 1199px) {
+	div#main-content {
+		background: url("../images/BG_desktop.png") no-repeat;
+		background-size: contain;
+		width: 50em;
+		height: 28em;
+	}
 	  
 
 }
   
   /********** Small devices only **********/
   @media (min-width: 768px) and (max-width: 991px) {
+	div#main-content {
+		background: url("../images/BG_desktop.png") no-repeat;
+		background-size: contain;
+		width: 50em;
+		height: 28em;
+	}
 
 }
   
   /********** Extra small devices only **********/
   @media (max-width: 767px) {
+	div#main-content {
+		background: url("../images/BG_Tablet&Mobile.png") no-repeat;
+		background-size: contain;
+		width: 30em;
+		height: 27.5em;
+	}
   
 }
 /*For main content image to start from header in tab and mobile mode*/
  @media (max-width: 1199px){
-	div#main-content {
-		background: url("../images/BG_desktop.png") no-repeat;
-		background-size: contain;
-		width: 50em;
-		height: 50em;
-	}
+	
  }
