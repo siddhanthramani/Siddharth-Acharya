@@ -50,7 +50,7 @@ body {
 /*Triple icon border is removed*/
 .navbar-default .navbar-header button{
 	border: 0px;
-	padding-left: 20px;
+	padding-left: 25px;
 }
 
 /*Color of menu items is white in tablet and mob mode*/
