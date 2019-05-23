@@ -25,13 +25,20 @@ body {
 	background-color:white  ;
 		
 }
-/*Do reduce the size of logo image*/
+/*To reduce the size of SocialIcon logo image in mob view*/
 .navbar-default .navbar-nav>li>a>span>img{
 	max-width: 20px;
 	height: 20px;
 	object-fit: contain;
 	
 	
+}
+/*To reduce the size of Sid Acharya logo image in mob view*/
+.navbar-brand p>img{
+	max-width: 55px;
+	height: auto;
+ 	margin-right: 15px;
+		
 }
 
 /*Triple icon border is removed*/
