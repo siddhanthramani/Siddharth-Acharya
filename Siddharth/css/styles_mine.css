@@ -2,15 +2,15 @@ body {
 	color: rgb(223, 169, 89);
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 2em;
-	text-align: center;	
+	text-align: center;
+		
 }
-/*Makes the navbar extend to the full width of the view port*/
-.navbar,.navbar-default{
-	width: 100vw;
-}
+
 /*Removes buttoned list*/
 #main-content ul{
 	list-style: none;
+	
+	
 }
 #header-nav {
 	/*
@@ -19,6 +19,7 @@ body {
 	background-color: black;
 	border-color: black;
 	border-radius: 0%;
+	width: 100vw;/*Makes the navbar extend to the full width of the view port*/
 }
 /*Triple icon is white */
 .navbar-default .navbar-toggle .icon-bar{
@@ -45,6 +46,7 @@ body {
 /*To make the sid acharya logo look center aligned vertically*/
 .navbar-brand{
 	padding:10px;
+	float: right;
 }
 
 /*Triple icon border is removed*/
@@ -88,7 +90,13 @@ body {
 	body{/*Makes the image cover the body */
 		background: url("../images/BG_desktop.png") no-repeat;
 		background-size: cover; 
+		
 	}
+	
+	#main-content ul{
+		padding-right:10vw;		
+	}
+	
 
 }
   
@@ -97,10 +105,26 @@ body {
 	div#main-content {
 		background: url("../images/BG_desktop.png") no-repeat;
 		background-size: cover;
+		background-position: center;
 		width: 100vw;
 		height: 100vh;
 		
 	}
+
+	.navbar-brand{
+		align-self: center;
+		float: inherit;
+	}
+	#header-nav{
+		margin-bottom: -10px;
+		box-shadow:0px 0px 10px 10px black;
+		
+	}
+	
+	#main-content ul{
+		padding-right:30vw;		
+	}
+	
 	  
 
 }
@@ -111,11 +135,23 @@ body {
 		/*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
 		background: url("../images/BG_desktop.png") no-repeat;
 		background-size: cover;
+		background-position: center;
 		width: 100vw;
-		height: 100vh;
-		
+		height: 100vh;	
 	}
-
+	.navbar-brand{
+		align-self: center;
+		float: inherit;
+	}
+	#header-nav{
+		margin-bottom: -10px;
+		box-shadow:0px 0px 10px 10px black;
+	}
+	
+	#main-content ul{
+		padding-right:30vw;		
+	}
+	
 }
   
   /********** Extra small devices only **********/
@@ -124,7 +160,7 @@ body {
 	div#main-content {
 		background: url("../images/BG_Tablet&Mobile.png") no-repeat;
 		background-size: cover;
-		background-position-x: center;
+		background-position: center;
 		width: 100vw;
 		height: 100vh;
 		
