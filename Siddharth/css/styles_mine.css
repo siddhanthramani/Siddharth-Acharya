@@ -138,6 +138,8 @@ body {
 	body{/*Makes the image cover the body */
 		background: url("../images/BG_desktop.png") no-repeat;
 		background-size: cover; 
+		width: 100vw;
+		height: 100vh;
 		
 	}
 	
