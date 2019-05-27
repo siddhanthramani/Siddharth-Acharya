@@ -20,8 +20,6 @@ body {
 	text-transform: uppercase;
 	font-size: medium;
 	
-
-	
 }
 /*In desktop mode menu items have no underline and have color on hover*/
 #Home a:hover,#Story a:hover,#Videos a:hover,#Media a:hover,#Contact a:hover,#Tour a:hover{
@@ -157,7 +155,7 @@ body {
 #main-content ul.menuitems li{
 	background-color: #0A1938;
 	opacity: 0.7;
-	padding: 8px 12px;
+	padding: 8px 16px;
 	margin-top: 48px;
 }
 
