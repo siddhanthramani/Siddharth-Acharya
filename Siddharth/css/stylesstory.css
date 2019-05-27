@@ -6,6 +6,7 @@
     align-self:center ;
     text-align: justify;
     padding: 16px;
+    
          
 }
 #main-content{
@@ -66,9 +67,7 @@
     }
     #mainstory{
     height: max-content;
-    width: 60vw;
-    margin-left: 25vw;
-    margin-top: 15vh;   
+    width: 60vw;   
     }
 
 }
@@ -79,13 +78,20 @@
 		background: url("../images/BG_Story.png") no-repeat center  fixed;
 		background-size: cover;
 		width: 100vw;
-		height: 100vh;
-        
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+           
     }
     #mainstory{
-        height: fit-content;
-        width: 40vw;
+        height: 300px;
+        width: 400px;;
+        overflow: scroll ;
+        overflow-x: hidden;
         
+        
+            
         
     }
     
