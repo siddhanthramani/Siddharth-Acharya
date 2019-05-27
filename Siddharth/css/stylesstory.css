@@ -3,11 +3,9 @@
     color:#0A1938;
     background-color:  #2FC5D6;
     opacity: 0.8;    
-    align-self:center ;
     text-align: justify;
     padding: 32px;
-    
-         
+             
 }
 #main-content{
     vertical-align: middle;
@@ -39,42 +37,55 @@
 		background: url("../images/BG_Story.png") no-repeat center fixed;
 		background-size:cover; 
 		width: 100vw;
-		height: 100vh;	
-	}
+        height: 100vh;	
+        
+    }
+    .Icons{
+        position: absolute; 
+        right: 0px;       
+        bottom: 0px;
+        margin-bottom: 32px;
+    }
 	
-    #main-content ul.menuitems{
-        padding-right:4vw;		
+    .Icons span.row{
+        padding: 0px 32px;
     }
-	.Icons span.row{	
-        margin-right: 0vw;
+	.Icons span.row ul{	
+        display: flex;
+        padding:0px;
+        width: max-content;
     }
-	#main-content ul.menuitems span{
-    display: flex;
-    justify-content: flex-end;
-			
+    .Icons span.row ul li{
+        padding:0px 8px;
+    }
+
+	#main-content ul.menuitems {
+        align-self: flex-end;
+        padding-right: 0px;	
 	}
 	.Icons ul a img{
-		max-width: 20px;
-		height: 20px;
-		object-fit: contain;
+        max-width: 20px;
+        height: 20px;
+        object-fit: contain;
 	}
-	.Icons{
-		bottom: 64px;
-    }
+	
     #mainstory{
     height: max-content;
-    height: 400px;
-    width: 500px;;
+    height: 60vh;
+    width: 60vw;;
+    align-self: flex-end ;
     overflow: scroll ;
-    overflow-x: hidden;  
+    overflow-x: hidden;
+    overflow-y:hidden;  
     margin-top: 16px;
     }
     #main-content{
+    
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-        
-    }
+    flex-direction: column;    
+    
+}
+
 
 }
   
@@ -129,7 +140,7 @@
   @media (max-width: 767px) {
 	  /*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
 	div#main-content {
-		background: url("../images/BG_Tablet&Mobile.png") no-repeat center  fixed;
+		background: url("../images/BG_Tablet&Mobile.png") no-repeat center fixed;
 		background-size: cover;
 		width: 100vw;
 		height: 100vh;
