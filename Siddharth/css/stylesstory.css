@@ -5,13 +5,12 @@
     opacity: 0.8;    
     align-self:center ;
     text-align: justify;
-    padding: 16px;
+    padding: 32px;
     
          
 }
 #main-content{
     vertical-align: middle;
-
 }
 
 
@@ -40,10 +39,7 @@
 		background: url("../images/BG_Story.png") no-repeat center fixed;
 		background-size:cover; 
 		width: 100vw;
-		height: 100vh;
-		
-	
-		
+		height: 100vh;	
 	}
 	
     #main-content ul.menuitems{
@@ -67,7 +63,17 @@
     }
     #mainstory{
     height: max-content;
-    width: 60vw;   
+    height: 400px;
+    width: 500px;;
+    overflow: scroll ;
+    overflow-x: hidden;  
+    margin-top: 16px;
+    }
+    #main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        
     }
 
 }
@@ -89,10 +95,7 @@
         width: 400px;;
         overflow: scroll ;
         overflow-x: hidden;
-        
-        
-            
-        
+               
     }
     
 	
@@ -107,7 +110,18 @@
 		background-size: cover;
 		width: 100vw;
 		height: 100vh;	
-	}
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+           
+    }
+    #mainstory{
+        height: 300px;
+        width: 400px;;
+        overflow: scroll ;
+        overflow-x: hidden;
+               
+    }
 
 }
   
