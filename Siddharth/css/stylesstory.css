@@ -1,5 +1,5 @@
 #mainstory{
-
+/*The content will have blue box and other prop*/
     color:#0A1938;
     background-color:  #2FC5D6;
     opacity: 0.8;    
@@ -7,19 +7,6 @@
     padding: 32px;
              
 }
-#main-content{
-    vertical-align: middle;
-}
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -40,50 +27,51 @@
         height: 100vh;	
         
     }
+    /**/
     .Icons{
         position: absolute; 
         right: 0px;       
-        bottom: 0px;
-        margin-bottom: 32px;
+        bottom: 0px;/*Makes the icons stick to the right of the body*/
+        margin-bottom: 32px;/*Gives a margin at bottom for icons*/
     }
 	
     .Icons span.row{
         padding: 0px 32px;
     }
 	.Icons span.row ul{	
-        display: flex;
-        padding:0px;
-        width: max-content;
+        display: flex;/*Makes all the icons lie on the same plane*/
+        padding:0px;/*Removes padding set by styles_mine*/
+        width: max-content;/*Wraps around content*/
     }
     .Icons span.row ul li{
-        padding:0px 8px;
+        padding:0px 8px;/*Left and right padding for list items*/
     }
 
 	#main-content ul.menuitems {
-        align-self: flex-end;
-        padding-right: 0px;	
+        align-self: flex-end;/*Aligns the menu items to right end of main-content*/
+        padding-right: 0px;	/*Removes any padding in the right*/
 	}
 	.Icons ul a img{
         max-width: 20px;
         height: 20px;
-        object-fit: contain;
+        object-fit: contain;/*Controls the size of Social Media Icons*/
 	}
 	
     #mainstory{
-    height: max-content;
-    height: 60vh;
-    width: 60vw;;
-    align-self: flex-end ;
-    overflow: scroll ;
-    overflow-x: hidden;
-    overflow-y:hidden;  
-    margin-top: 16px;
+    height: max-content;/*Wraps around content*/
+    height: 55vh;
+    width: 55vw;;
+    align-self: flex-end;/*Sticks to right end of maincontent*/
+    overflow: scroll ;/*If text overflows, then scroll*/
+    overflow-x: hidden;/*Hides the width scroll*/
+    overflow-y: hidden;
+    margin-top: 48px;
+    font-size: 16px;
+    font-weight: 900;
     }
-    #main-content{
-    
-    display: flex;
-    flex-direction: column;    
-    
+    #main-content{ 
+    display: flex;/*Makes it possible for items to stick to right*/
+    flex-direction: column;/*Makes the flex items a coloumn*/
 }
 
 
