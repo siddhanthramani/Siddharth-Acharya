@@ -33,6 +33,9 @@ body {
 .Icon a:hover{
 	text-decoration: none;
 }
+.Icons,.Iconcool{
+	position: fixed;
+}
 
 
 
