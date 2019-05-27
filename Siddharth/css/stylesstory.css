@@ -3,22 +3,16 @@
     color:#0A1938;
     background-color:  #2FC5D6;
     opacity: 0.8;    
-    height: max-content;
-    width: 60vw;
     align-self:center ;
     text-align: justify;
     padding: 16px;
-    margin-left: 25vw;
-    margin-top: 15vh;   
-     
+         
 }
 #main-content{
     vertical-align: middle;
 
 }
-.Icons,.Iconcool{
-    position: fixed;
-}
+
 
 
 
@@ -51,15 +45,15 @@
 		
 	}
 	
-		#main-content ul.menuitems{
-			padding-right:4vw;		
-		}
-		.Icons span.row{	
-			margin-right: 0vw;
-		}
+    #main-content ul.menuitems{
+        padding-right:4vw;		
+    }
+	.Icons span.row{	
+        margin-right: 0vw;
+    }
 	#main-content ul.menuitems span{
-		display: flex;
-		justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
 			
 	}
 	.Icons ul a img{
@@ -69,7 +63,13 @@
 	}
 	.Icons{
 		bottom: 64px;
-	}
+    }
+    #mainstory{
+    height: max-content;
+    width: 60vw;
+    margin-left: 25vw;
+    margin-top: 15vh;   
+    }
 
 }
   
@@ -80,9 +80,15 @@
 		background-size: cover;
 		width: 100vw;
 		height: 100vh;
-		
-	}
-
+        
+    }
+    #mainstory{
+        height: fit-content;
+        width: 40vw;
+        
+        
+    }
+    
 	
 	
 }
