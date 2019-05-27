@@ -1,6 +1,6 @@
 body {
 	color: rgb(223, 169, 89);
-	font-family: 'DIN-Alternate-Bold', sans-serif;
+	font-family: 'webfontregular', sans-serif;
 	font-size: 2em;
 	text-align: center;
 		
@@ -13,12 +13,6 @@ body {
 	
 }
 
-#main-content ul.menuitems li{
-	background-color: #0A1938;
-	opacity: 0.7;
-	padding: 8px 8px;
-	margin-top: 16px;
-}
 
 /*In desktop mode menu items in white*/
 #Home a,#Story a,#Videos a,#Media a,#Contact a,#Tour a{
@@ -29,15 +23,15 @@ body {
 
 	
 }
-/*In desktop mode menu items have no underline on hover*/
+/*In desktop mode menu items have no underline and have color on hover*/
 #Home a:hover,#Story a:hover,#Videos a:hover,#Media a:hover,#Contact a:hover,#Tour a:hover{
 	text-decoration: none;
 	color: aquamarine;
 	
 }
-.Iconcool a:hover{
+/*Icon in desktop will not have hover style*/
+.Icon a:hover{
 	text-decoration: none;
-	
 }
 
 
@@ -67,6 +61,7 @@ body {
 	
 
 }
+
 .Icons span.row
 {	background-color: #0A1938;
 	opacity: 0.7;
@@ -88,7 +83,7 @@ body {
 	bottom: 0px;
 	right: 4vw;
 	height: 32px;
-	width: 90px;
+	width: 100px;
 		
 }
 
@@ -126,8 +121,6 @@ body {
 		width: 100vw;
 		height: 100vh;
 		
-	
-		
 	}
 	
 		#main-content ul.menuitems{
@@ -150,12 +143,27 @@ body {
 		bottom: 64px;
 	}
 
+	.Icons ul #SoundcloudButton a img{
+		max-width: 30px;
+		}
+	.Icons ul #BandCampButton a img{
+		max-height: 30px;
+		
+	}
+	/*Menu Items get partial transparent bgcolor*/
+#main-content ul.menuitems li{
+	background-color: #0A1938;
+	opacity: 0.7;
+	padding: 8px 12px;
+	margin-top: 48px;
+}
+
 }
   
   /********** Medium devices only **********/
   @media (min-width: 992px) and (max-width: 1199px) {
 	div#main-content {
-		background: url("../images/BG_Tablet&Mobile.png") no-repeat center  fixed;
+		background: url("../images/BG_desktop.png") no-repeat center  fixed;
 		background-size: cover;
 		width: 100vw;
 		height: 100vh;
@@ -183,6 +191,11 @@ body {
 	.Icons{
 		bottom: 16px;
 	}
+	.Icons ul #SoundcloudButton a img{
+		max-width: 30px;
+		height: 25px;
+		object-fit: contain;
+	}
 
 	  
 	#brandlogo{
@@ -195,13 +208,20 @@ body {
 		padding: 8px;
 		padding-right: 12px;
 	}
+	/*Menu Items get partial transparent bgcolor*/
+#main-content ul.menuitems li{
+	background-color: #0A1938;
+	opacity: 0.7;
+	padding: 8px 12px;
+	margin-top: 16px;
+}
 }
   
   /********** Small devices only **********/
   @media (min-width: 768px) and (max-width: 991px) {
 	div#main-content {
 		/*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
-		background: url("../images/BG_Tablet&Mobile.png") no-repeat center  fixed;
+		background: url("../images/BG_desktop.png") no-repeat center  fixed;
 		background-size: cover;
 		width: 100vw;
 		height: 100vh;	
@@ -224,8 +244,19 @@ body {
 		height: 25px;
 		object-fit: contain;
 	}
+	.Icons ul #SoundcloudButton a img{
+		max-width: 30px;
+		height: 25px;
+		object-fit: contain;
+	}
 	.Icons{
 		bottom: 16px;
+	}
+	#main-content ul.menuitems li{
+		background-color: #0A1938;
+		opacity: 0.7;
+		padding: 8px 12px;
+		margin-top: 16px;
 	}
 	#brandlogo{
 		background-color: #0A1938;
@@ -266,12 +297,11 @@ body {
 		opacity: 0.7;
 		transform: rotate(270deg);
 		float: left;
-		margin-top: 46px;
+		margin-top: 44px;
 		margin-left: -32px;
 		padding: 8px;
-		width: 100px;
+		width: 108px;
 		color: white;
-		
 		
 		
 	}
