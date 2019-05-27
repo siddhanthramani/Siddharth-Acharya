@@ -4,6 +4,7 @@
     background-color:  #2FC5D6;
     opacity: 0.8;    
     text-align: justify;
+    margin: 0px;
     padding: 32px;
              
 }
@@ -32,11 +33,12 @@
         position: absolute; 
         right: 0px;       
         bottom: 0px;/*Makes the icons stick to the right of the body*/
-        margin-bottom: 32px;/*Gives a margin at bottom for icons*/
+        margin-bottom: 24px;/*Gives a margin at bottom for icons*/
     }
 	
     .Icons span.row{
-        padding: 0px 32px;
+
+        padding: 0px 8px;
     }
 	.Icons span.row ul{	
         display: flex;/*Makes all the icons lie on the same plane*/
@@ -44,7 +46,8 @@
         width: max-content;/*Wraps around content*/
     }
     .Icons span.row ul li{
-        padding:0px 8px;/*Left and right padding for list items*/
+        
+        padding:8px;/*Left and right padding for list items*/
     }
 
 	#main-content ul.menuitems {
@@ -59,13 +62,14 @@
 	
     #mainstory{
     height: max-content;/*Wraps around content*/
-    height: 55vh;
-    width: 55vw;;
+    width: max-content;
+    padding: 32px 32px 22px 32px;/*Bottom is 10 px less due to padding from para tag(10px)*/
+    width: 55vw;
     align-self: flex-end;/*Sticks to right end of maincontent*/
     overflow: scroll ;/*If text overflows, then scroll*/
     overflow-x: hidden;/*Hides the width scroll*/
     overflow-y: hidden;
-    margin-top: 48px;
+    margin-top: 36px;
     font-size: 16px;
     font-weight: 900;
     }
