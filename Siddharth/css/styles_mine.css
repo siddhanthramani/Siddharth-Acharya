@@ -1,5 +1,5 @@
 body {
-	color:white;
+	color:#2FC5D6;
 	font-family: 'webfontregular', sans-serif;
 	font-size: 2em;
 	text-align: center;
@@ -16,7 +16,7 @@ body {
 
 /*In desktop mode menu items in white*/
 #Home a,#Story a,#Videos a,#Media a,#Contact a,#Tour a{
-	color: white;
+	color:#2FC5D6;
 	text-transform: uppercase;
 	font-size: medium;
 	
