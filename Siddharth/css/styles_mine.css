@@ -6,6 +6,7 @@ body {
 		
 }
 
+
 /*Removes buttoned list*/
 #main-content ul{
 	list-style: none;		
@@ -24,6 +25,7 @@ body {
 	color: white;
 	text-transform: uppercase;
 	font-size: medium;
+	
 
 	
 }
@@ -31,6 +33,11 @@ body {
 #Home a:hover,#Story a:hover,#Videos a:hover,#Media a:hover,#Contact a:hover,#Tour a:hover{
 	text-decoration: none;
 	color: aquamarine;
+	
+}
+.Iconcool a:hover{
+	text-decoration: none;
+	
 }
 
 

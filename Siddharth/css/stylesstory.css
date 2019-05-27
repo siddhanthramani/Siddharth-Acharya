@@ -1,0 +1,110 @@
+#mainstory{
+
+    color:#0A1938;
+    background-color:  #2FC5D6;
+    opacity: 0.8;    
+    height: max-content;
+    width: 60vw;
+    align-self: center;
+    padding: 8px;
+    margin-left: 25vw;
+    margin-top: 15vh;    
+}
+#main-content{
+    vertical-align: middle;
+
+}
+.Icons,.Iconcool{
+    position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********** Large devices only **********/
+@media (min-width: 1200px) {
+	body{/*Makes the image cover the body */
+		background: url("../images/BG_Story.png") no-repeat center fixed;
+		background-size:cover; 
+		width: 100vw;
+		height: 100vh;
+		
+	
+		
+	}
+	
+		#main-content ul.menuitems{
+			padding-right:4vw;		
+		}
+		.Icons span.row{	
+			margin-right: 0vw;
+		}
+	#main-content ul.menuitems span{
+		display: flex;
+		justify-content: flex-end;
+			
+	}
+	.Icons ul a img{
+		max-width: 20px;
+		height: 20px;
+		object-fit: contain;
+	}
+	.Icons{
+		bottom: 64px;
+	}
+
+}
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+	div#main-content {
+		background: url("../images/BG_Story.png") no-repeat center  fixed;
+		background-size: cover;
+		width: 100vw;
+		height: 100vh;
+		
+	}
+
+	
+	
+}
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+	div#main-content {
+		/*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
+		background: url("../images/BG_Tablet&Mobile.png") no-repeat center  fixed;
+		background-size: cover;
+		width: 100vw;
+		height: 100vh;	
+	}
+
+}
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+	  /*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
+	div#main-content {
+		background: url("../images/BG_Tablet&Mobile.png") no-repeat center  fixed;
+		background-size: cover;
+		width: 100vw;
+		height: 100vh;
+		
+	
+}
