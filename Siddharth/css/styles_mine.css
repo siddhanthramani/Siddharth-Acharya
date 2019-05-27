@@ -1,6 +1,6 @@
 body {
 	color: rgb(223, 169, 89);
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'DIN-Alternate-Bold', sans-serif;
 	font-size: 2em;
 	text-align: center;
 		
@@ -8,105 +8,91 @@ body {
 
 /*Removes buttoned list*/
 #main-content ul{
-	list-style: none;
+	list-style: none;		
 	
-	
-}
-#header-nav {
-	/*
-	Creates a fullbleed black header for all devices
-	*/
-	background-color: black;
-	border-color: black;
-	border-radius: 0%;
-	width: 100vw;
-	
-	/*Makes the navbar extend to the full width of the view port*/
-}
-/*Triple icon is white */
-.navbar-default .navbar-toggle .icon-bar{
-	background-color:white  ;
-		
-}
-/*To reduce the size of SocialIcon logo image in tab and desk view*/
-.Icons ul a img{
-	max-width: 20px;
-	height: 20px;
-	object-fit: contain;
-}
-.Icons span.row ul{
-	line-height: 40px;
-	padding-right: 5px;
-}
-.Icons span.row
-{	
-	margin-bottom: -10px;
-	margin-right: 50px;
-	display: inline-block;
 }
 
-.Icons{	
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
+#main-content ul.menuitems li{
+	background-color: #0A1938;
+	opacity: 0.7;
+	padding: 8px 8px;
+	margin-top: 16px;
 }
 
-
-
-
-/*To reduce the size of SocialIcon logo image in mob view*/
-.navbar-default .navbar-nav>li>a>span>img{
-	max-width: 20px;
-	height: 20px;
-	object-fit: contain;
-}
-/*To reduce the size of Sid Acharya logo image in mob view and tab view*/
-.navbar-brand p>img{
-	max-width: 55px;
-	height: auto;
-	margin-right: 15px;
-    vertical-align: middle;
-	 
-		
-}
-/*To make the sid acharya logo look center aligned vertically*/
-.navbar-brand{
-	padding:10px;
-	float: right;
-}
-
-/*Triple icon border is removed*/
-.navbar-default .navbar-header button{
-	border: 0px;
-	padding-left: 25px;
-}
-
-/*Color of menu items is white in tablet and mob mode*/
-.navbar-default .navbar-nav>li>a{
-	color: white;	
-	align-self: center;
-}
-/*Color of menu items is blue during hover in tablet and mob mode*/
-.navbar-default .navbar-nav>li>a:hover{
-	color: aquamarine;
-}
-/*So that maincontent starts immediately from the header*/
-.navbar{
-	margin-bottom: 0px;
-}
 /*In desktop mode menu items in white*/
-#Home a,#Story a,#Videos a,#Media a,#Contact a{
+#Home a,#Story a,#Videos a,#Media a,#Contact a,#Tour a{
 	color: white;
-	float: right;
 	text-transform: uppercase;
 	font-size: medium;
 
 	
 }
 /*In desktop mode menu items have no underline on hover*/
-#Home a:hover,#Story a:hover,#Videos a:hover,#Media a:hover,#Contact a:hover{
+#Home a:hover,#Story a:hover,#Videos a:hover,#Media a:hover,#Contact a:hover,#Tour a:hover{
 	text-decoration: none;
 	color: aquamarine;
+}
+
+
+
+
+
+
+
+
+#brandlogo{
+	background-color: #0A1938;
+	opacity: 0.7;
+	max-width: 1000px;
+	height: 100px;
+	object-fit: contain;
+	margin-top: 16px;
+	padding: 8px;
+	padding-right: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*To reduce the size of SocialIcon logo image in tab and desk view*/
+
+.Icons span.row ul{
+	line-height: 40px;
+	padding-right: 5px;
+	
+
+}
+.Icons span.row
+{	background-color: #0A1938;
+	opacity: 0.7;
+	padding-right: 10px;
+	margin-bottom: -10px;
+	margin-right: 0px;
+	display: inline-block;
+}
+
+.Icons{	
+	position: absolute;
+	bottom: 64px;
+	right: 4vw;
+	
+}
+.Iconcool{	
+	background-color: #0A1938;
+	opacity: 0.7;
+	position: absolute;
+	bottom: 0px;
+	right: 4vw;
+	height: 32px;
+	width: 90px;
+		
 }
 
 
@@ -138,18 +124,30 @@ body {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 	body{/*Makes the image cover the body */
-		background: url("../images/BG.png") no-repeat;
-		background-size: 100vw 100vh; 
+		background: url("../images/BG_LandingPage.png") no-repeat center center fixed;
+		background-size:cover; 
 		width: 100vw;
 		height: 100vh;
 		
+	
+		
 	}
 	
-	#main-content ul.menuitems{
-		padding-right:10vw;		
+		#main-content ul.menuitems{
+			padding-right:4vw;		
+		}
+		.Icons span.row{	
+			margin-right: 0vw;
+		}
+	#main-content ul.menuitems span{
+		display: flex;
+		justify-content: flex-end;
+			
 	}
-	.Icons span.row{	
-		margin-right: 10vw;
+	.Icons ul a img{
+		max-width: 20px;
+		height: 20px;
+		object-fit: contain;
 	}
 
 }
@@ -157,29 +155,30 @@ body {
   /********** Medium devices only **********/
   @media (min-width: 992px) and (max-width: 1199px) {
 	div#main-content {
-		background: url("../images/BG.png") no-repeat;
+		background: url("../images/BG_Tablet&Mobile.png") no-repeat center center fixed;
 		background-size: cover;
-		background-position: center;
 		width: 100vw;
 		height: 100vh;
 		
 	}
 
-	.navbar-brand{
-		align-self: center;
-		float: inherit;
-	}
-	#header-nav{
-		margin-bottom: -10px;
-		box-shadow:0px 0px 10px 10px black;
-		
-	}
+	
 	
 	#main-content ul.menuitems{
-		padding-right:30vw;		
+		
 	}
 	.Icons span.row{	
-		margin-bottom: -50px;
+		margin-bottom: 0vw;
+	}
+	#main-content ul.menuitems span{
+		display: flex;
+		justify-content: center;		
+	}
+
+	.Icons ul a img{
+		max-width: 25px;
+		height: 25px;
+		object-fit: contain;
 	}
 
 	  
@@ -190,27 +189,28 @@ body {
   @media (min-width: 768px) and (max-width: 991px) {
 	div#main-content {
 		/*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
-		background: url("../images/BG.png") no-repeat;
+		background: url("../images/BG_Tablet&Mobile.png.png") no-repeat center center fixed;
 		background-size: cover;
-		background-position: center;
 		width: 100vw;
 		height: 100vh;	
 	}
-	.navbar-brand{
-		align-self: center;
-		float: inherit;
-	}
-	#header-nav{
-		margin-bottom: -10px;
-		box-shadow:0px 0px 10px 10px black;
-	}
-	
+
 	#main-content ul.menuitems{
-		padding-right:30vw;		
+			
 	}
 
 	.Icons span.row{	
-		margin-bottom: -50px;
+		margin-bottom: 0vw;
+	}
+	
+	#main-content ul.menuitems span{
+		display: flex;
+		justify-content: center;		
+	}
+	.Icons ul a img{
+		max-width: 25px;
+		height: 25px;
+		object-fit: contain;
 	}
 	
 }
@@ -219,9 +219,8 @@ body {
   @media (max-width: 767px) {
 	  /*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
 	div#main-content {
-		background: url("../images/BG_Tablet&Mobile.png") no-repeat;
+		background: url("../images/BG_Tablet&Mobile.png") no-repeat center center fixed;
 		background-size: cover;
-		background-position: center;
 		width: 100vw;
 		height: 100vh;
 		
