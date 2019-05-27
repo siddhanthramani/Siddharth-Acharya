@@ -40,16 +40,7 @@ body {
 
 
 
-#brandlogo{
-	background-color: #0A1938;
-	opacity: 0.7;
-	max-width: 1000px;
-	height: 100px;
-	object-fit: contain;
-	margin-top: 16px;
-	padding: 8px;
-	padding-right: 12px;
-}
+
 
 
 
@@ -80,7 +71,6 @@ body {
 
 .Icons{	
 	position: absolute;
-	bottom: 64px;
 	right: 4vw;
 	
 }
@@ -124,7 +114,7 @@ body {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 	body{/*Makes the image cover the body */
-		background: url("../images/BG_LandingPage.png") no-repeat center center fixed;
+		background: url("../images/BG_LandingPage.png") no-repeat center fixed;
 		background-size:cover; 
 		width: 100vw;
 		height: 100vh;
@@ -149,13 +139,16 @@ body {
 		height: 20px;
 		object-fit: contain;
 	}
+	.Icons{
+		bottom: 64px;
+	}
 
 }
   
   /********** Medium devices only **********/
   @media (min-width: 992px) and (max-width: 1199px) {
 	div#main-content {
-		background: url("../images/BG_Tablet&Mobile.png") no-repeat center center fixed;
+		background: url("../images/BG_Tablet&Mobile.png") no-repeat center  fixed;
 		background-size: cover;
 		width: 100vw;
 		height: 100vh;
@@ -180,16 +173,28 @@ body {
 		height: 25px;
 		object-fit: contain;
 	}
+	.Icons{
+		bottom: 16px;
+	}
 
 	  
-
+	#brandlogo{
+		background-color: #0A1938;
+		opacity: 0.7;
+		max-width: 1000px;
+		height: 100px;
+		object-fit: contain;
+		margin-top: 16px;
+		padding: 8px;
+		padding-right: 12px;
+	}
 }
   
   /********** Small devices only **********/
   @media (min-width: 768px) and (max-width: 991px) {
 	div#main-content {
 		/*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
-		background: url("../images/BG_Tablet&Mobile.png.png") no-repeat center center fixed;
+		background: url("../images/BG_Tablet&Mobile.png") no-repeat center  fixed;
 		background-size: cover;
 		width: 100vw;
 		height: 100vh;	
@@ -212,6 +217,19 @@ body {
 		height: 25px;
 		object-fit: contain;
 	}
+	.Icons{
+		bottom: 16px;
+	}
+	#brandlogo{
+		background-color: #0A1938;
+		opacity: 0.7;
+		max-width: 1000px;
+		height: 100px;
+		object-fit: contain;
+		margin-top: 16px;
+		padding: 8px;
+		padding-right: 12px;
+	}
 	
 }
   
@@ -219,11 +237,35 @@ body {
   @media (max-width: 767px) {
 	  /*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
 	div#main-content {
-		background: url("../images/BG_Tablet&Mobile.png") no-repeat center center fixed;
+		background: url("../images/BG_Tablet&Mobile.png") no-repeat center  fixed;
 		background-size: cover;
 		width: 100vw;
 		height: 100vh;
 		
 	}
-  
+  #brandlogo{
+		background-color: #0A1938;
+		opacity: 0.7;
+		max-width: 1000px;
+		height: 100px;
+		object-fit: contain;
+		margin-top: 16px;
+		padding: 8px;
+		padding-right: 12px;
+		float:right;
+	}
+	.menuxs{
+		background-color: #0A1938;
+		opacity: 0.7;
+		transform: rotate(270deg);
+		float: left;
+		margin-top: 46px;
+		margin-left: -32px;
+		padding: 8px;
+		width: 100px;
+		color: white;
+		
+		
+		
+	}
 }
