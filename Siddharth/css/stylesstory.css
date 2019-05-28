@@ -88,16 +88,19 @@
 		background-size: cover;
 		width: 100vw;
         height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    
            
     }
     #mainstory{
-        height: 300px;
-        width: 400px;;
+        height: max-content;/*Wraps around content*/
+        width: max-content;
+        margin-top: 36px;
+        height: 60vh;
+        width: 40vw;;
         overflow: scroll ;
         overflow-x: hidden;
+        font-size: 16px;
+        font-weight: 900;
                
     }
     
@@ -108,22 +111,23 @@
   /********** Small devices only **********/
   @media (min-width: 768px) and (max-width: 991px) {
 	div#main-content {
-		/*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
-		background: url("../images/BG_Tablet&Mobile.png") no-repeat center  fixed;
+		background: url("../images/BG_Story.png") no-repeat center  fixed;
 		background-size: cover;
 		width: 100vw;
-		height: 100vh;	
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        height: 100vh;
+    
            
     }
     #mainstory{
-        height: 300px;
-        width: 400px;;
+        height: max-content;/*Wraps around content*/
+        width: max-content;
+        margin-top: 36px;
+        height: 60vh;
+        width: 40vw;;
         overflow: scroll ;
         overflow-x: hidden;
-               
+        font-size: 16px;
+        font-weight: 900;  
     }
 
 }
@@ -132,10 +136,25 @@
   @media (max-width: 767px) {
 	  /*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
 	div#main-content {
-		background: url("../images/BG_Tablet&Mobile.png") no-repeat center fixed;
+		background: url("../images/BG_Story.png") no-repeat center fixed;
 		background-size: cover;
 		width: 100vw;
-		height: 100vh;
-		
-	
+        height: 100vh;
+    }
+
+    #mainstory{
+        height: max-content;/*Wraps around content*/
+        height: 60vh;
+        width: 100vw;
+        position: relative;
+        top: 36px;
+        overflow: scroll ;
+        overflow-x: hidden;
+        font-size: 16px;
+        font-weight: 900;
+               
+    }
+    
+
+
 }
