@@ -1,0 +1,247 @@
+
+#main-content{
+    vertical-align: middle;
+
+}
+
+
+.Icons span.column ul{
+	line-height: 55px;
+	
+}
+
+.Icons span.column ul li{
+    float:left;
+    padding-right: 20px;
+    padding-left:5px;
+    
+}
+
+.Icons span.column
+{	background-color: #0A1938;
+	opacity: 0.7;
+	padding-right: 10px;
+	margin-bottom: -20px;
+  display: inline-block;
+}
+
+
+
+.Icons{	
+    position:fixed;
+    right:0vw;
+	
+}
+
+/*Setting opacity of IconCool as zero for this page alone */
+.Iconcool{
+    opacity: 0;
+}
+
+
+/*Event Styling*/
+.UpcomingEvents{
+    background-color: #0A1938;
+    position: fixed;
+    line-height: 40px;
+    right:0vw;
+    display:inline-block;
+    opacity:0.6;
+    margin-top:65px;
+}
+.UpcomingEvents span{
+    color:aqua;
+    text-transform: uppercase;
+    padding-left:45px;
+    padding-right:45px;
+    font-size: 18px;
+}
+
+
+.EventName{
+	float:right;
+	position:fixed;
+	opacity:0.6;
+	background-color: aqua;
+	line-height: 70px;
+	right:0vw;
+	opacity:0.6;
+	margin-top:145px;
+}
+
+.EventName span{
+	color:#0A1938;
+	font-weight:bold;	
+	padding-left:100px;
+	padding-right:100px;
+	font-size: 25px;
+	opacity:1.0;
+	display:inline-block;
+}
+
+.EventBand{
+	position:fixed;
+	right:117px;
+	opacity:0.6;
+	background-color: aqua;
+	line-height: 50px;
+	opacity:0.6;
+	margin-top:240px;
+}
+
+.EventBand span{
+	color:#0A1938;
+	font-weight:bold;	
+	opacity:1.0;
+	text-transform: uppercase;
+	padding-left:30px;
+	padding-right:30px;
+	font-size: 18px;
+	display:inline-block;
+}
+
+.EventDate{
+	position:fixed;
+	right:380px;
+	opacity:0.6;
+	background-color:aqua;
+	line-height:144.7px;
+	opacity:0.6;
+	margin-top:145px;
+
+}
+
+.EventDate span{	
+	color:#0A1938;
+	opacity:1.0;
+	font-weight:bold;	
+	padding-left:30px;
+	padding-right:30px;
+	font-size: 28px;
+	display:inline-block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********** Large devices only **********/
+@media (min-width: 1200px) {
+    body{/*Makes the image cover the body */
+        
+		background: url("../images/BG_Tour.png") no-repeat center  fixed;
+		background-size:cover; 
+		width: 100vw;
+		height: 100vh;
+		
+	
+		
+	}
+		#main-content ul.menuitems{
+			padding-right:0;		
+		}
+		.Icons span.column{	
+            margin-right: 0vw;
+		}
+	#main-content ul.menuitems span{
+		display: flex;
+		justify-content: flex-end;
+			
+	}
+	.Icons ul a img{
+		max-width: 30px;
+		height: 30px;
+		object-fit: contain;
+	}
+	.Icons{
+		bottom: 64px;
+	}
+    .Icons span.column{	
+        margin-right: 0vw;
+    }
+}
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+	div#main-content {
+		background: url("../images/BG_Tour.png") no-repeat center  fixed;
+		background-size: cover;
+		width: 100vw;
+		height: 100vh;
+		
+		}
+	.UpcomingEvents{
+		margin-top:30px;
+	}
+	.EventName{
+		margin-top: 90px;
+	}
+	.EventBand{
+		margin-top: 190px;
+	}
+	.EventDate{
+		margin-top:90px;
+	}
+	.Icons{	
+    position:fixed;
+    right:4vw;
+	
+}
+	
+}
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+	div#main-content {
+		/*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
+		background: url("../images/BG_Tablet&Mobile.png") no-repeat center  fixed;
+		background-size: cover;
+		width: 100vw;
+		height: 100vh;	
+	}
+	.UpcomingEvents{
+		margin-top:30px;
+	}
+	.EventName{
+		margin-top: 90px;
+	}
+	.EventBand{
+		margin-top: 190px;
+	}
+	.EventDate{
+		margin-top:90px;
+	}
+	.Icons{	
+    position:fixed;
+    right:4vw;
+	
+}
+}
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+	  /*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
+	div#main-content {
+		background: url("../images/BG_Tablet&Mobile.png") no-repeat center  fixed;
+		background-size: cover;
+		width: 100vw;
+		height: 100vh;
+		
+	
+		}
+		
+  }
