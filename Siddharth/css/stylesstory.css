@@ -38,7 +38,7 @@
 	
     .Icons span.row{
 
-        padding: 0px 16px 0px 16px;
+        padding: 0px 16px 4px 16px;
     }
 	.Icons span.row ul{	
         display: flex;/*Makes all the icons lie on the same plane*/
@@ -47,7 +47,7 @@
     }
     .Icons span.row ul li{
         
-        padding:8px 8px 0px 8px;/*Left and right padding for list items*/
+        padding:8px;/*Left and right padding for list items*/
     }
 
 	#main-content ul.menuitems {
