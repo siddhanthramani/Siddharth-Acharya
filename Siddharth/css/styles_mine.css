@@ -83,8 +83,8 @@ body {
 	position: absolute;
 	bottom: 0px;
 	right: 4vw;
-	height: 32px;
-	width: 100px;
+	height: 48px;
+	width: 82px;
 		
 }
 
@@ -124,17 +124,27 @@ body {
 		
 	}
 	
-		#main-content ul.menuitems{
-			padding-right:4vw;		
-		}
-		.Icons span.row{	
-			margin-right: 0vw;
-		}
+	
+	
 	#main-content ul.menuitems span{
 		display: flex;
 		justify-content: flex-end;
 			
 	}
+	.Icons span.row{
+
+		padding: 8px 8px 8px 8px;
+	}
+	.Icons span.row ul{
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.Icons span.row ul li{
+        
+		padding:0px 4px 0px 4px;/*Left and right padding for list items*/
+}
+
 	.Icons ul a img{
 		max-width: 20px;
 		height: 20px;
@@ -143,6 +153,7 @@ body {
 	.Icons{
 		bottom: 64px;
 	}
+
 
 	.Icons ul #SoundcloudButton a img{
 		max-width: 30px;
@@ -178,26 +189,32 @@ body {
 	}
 
 	
-	
-	#main-content ul.menuitems{
-		
-	}
-	.Icons span.row{	
-		margin-bottom: 0vw;
-	}
 	#main-content ul.menuitems span{
 		display: flex;
 		justify-content: center;		
 	}
+	.Icons span.row{
+
+		padding: 8px 8px 8px 8px;
+	}
+	.Icons span.row ul{
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.Icons span.row ul li{
+        
+		padding:0px 4px 0px 4px;/*Left and right padding for list items*/
+}
 
 	.Icons ul a img{
 		max-width: 25px;
 		height: 25px;
 		object-fit: contain;
 	}
-	.Icons{
-		bottom: 16px;
-	}
+		.Icons{
+			bottom: 16px;
+		}
 	.Icons ul #SoundcloudButton a img{
 		max-width: 30px;
 		height: 25px;
@@ -219,63 +236,86 @@ body {
 #main-content ul.menuitems li{
 	background-color: #0A1938;
 	opacity: 0.7;
-	padding: 8px 12px;
+	padding: 16px;
 	margin-top: 16px;
 }
+#main-content ul.menuitems #Home{
+	padding-left: 32px;
+}
+#main-content ul.menuitems #Contact{
+	padding-right: 32px;
+}
+
 }
   
   /********** Small devices only **********/
   @media (min-width: 768px) and (max-width: 991px) {
 	div#main-content {
-		/*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
-		background: url("../images/BG_desktop.png") no-repeat center  fixed;
-		background-size: cover;
-		width: 100vw;
-		height: 100vh;	
-	}
-
-	#main-content ul.menuitems{
+		
+			background: url("../images/BG_desktop.png") no-repeat center  fixed;
+			background-size: cover;
+			width: 100vw;
+			height: 100vh;
 			
-	}
-
-	.Icons span.row{	
-		margin-bottom: 0vw;
+		}
+	
+		
+		#main-content ul.menuitems span{
+			display: flex;
+			justify-content: center;		
+		}
+		.Icons span.row{
+	
+			padding: 8px 8px 8px 8px;
+		}
+		.Icons span.row ul{
+			padding: 0px;
+			margin: 0px;
+		}
+	
+		.Icons span.row ul li{
+					
+			padding:0px 4px 0px 4px;/*Left and right padding for list items*/
 	}
 	
-	#main-content ul.menuitems span{
-		display: flex;
-		justify-content: center;		
-	}
-	.Icons ul a img{
-		max-width: 25px;
-		height: 25px;
-		object-fit: contain;
-	}
-	.Icons ul #SoundcloudButton a img{
-		max-width: 30px;
-		height: 25px;
-		object-fit: contain;
-	}
-	.Icons{
-		bottom: 16px;
-	}
+		.Icons ul a img{
+			max-width: 25px;
+			height: 25px;
+			object-fit: contain;
+		}
+			.Icons{
+				bottom: 16px;
+			}
+		.Icons ul #SoundcloudButton a img{
+			max-width: 30px;
+			height: 25px;
+			object-fit: contain;
+		}
+	
+			
+		#brandlogo{
+			background-color: #0A1938;
+			opacity: 0.7;
+			max-width: 1000px;
+			height: 100px;
+			object-fit: contain;
+			margin-top: 16px;
+			padding: 8px;
+			padding-right: 12px;
+		}
+		/*Menu Items get partial transparent bgcolor*/
 	#main-content ul.menuitems li{
 		background-color: #0A1938;
 		opacity: 0.7;
-		padding: 8px 12px;
+		padding: 16px;
 		margin-top: 16px;
 	}
-	#brandlogo{
-		background-color: #0A1938;
-		opacity: 0.7;
-		max-width: 1000px;
-		height: 100px;
-		object-fit: contain;
-		margin-top: 16px;
-		padding: 8px;
-		padding-right: 12px;
+	#main-content ul.menuitems #Home{
+		padding-left: 32px;
 	}
-	
+	#main-content ul.menuitems #Contact{
+		padding-right: 32px;
+	}
 }
   
   /********** Extra small devices only **********/
@@ -306,8 +346,8 @@ body {
 		float: left;
 		margin-top: 44px;
 		margin-left: -32px;
-		padding: 8px;
-		width: 108px;
+		padding:8px 2px 8px 2px;
+		width: 100px;
 		color: white;
 		
 		
