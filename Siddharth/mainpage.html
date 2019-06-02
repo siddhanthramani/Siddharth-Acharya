@@ -15,16 +15,22 @@
 
 	<div id="main-content">
 
-		<div class="menuxs visible-xs">
-			Menu
+		<div id="fx-container">
+
+			<div class="menuxs visible-xs">
+				Menu
+			</div>
+			<div class="brand hidden-lg">
+				<a>
+					<img id="brandlogo" src="images/Logo_WithBox_Tablet.png">
+				</a>
+			</div>
+
 		</div>
-		<div class="brand hidden-lg">
-			<a>
-				<img id="brandlogo" src="images/Logo_WithBox_Tablet.png">
-			</a>
-		</div>
-		<span>
-			<ul class="menuitems hidden-xs">
+		<!--End of div fx-container-->
+		<div id="fx-menu">
+
+			<ul class="menuitems">
 				<span>
 					<!--Visible only for large devices-->
 
@@ -60,54 +66,57 @@
 					</li>
 				</span>
 			</ul><!-- #nav-list -->
-		</span>
-
-		<!--Icon Images-->
-		<div class="Icons hidden-xs ">
-			<span class="row">
-				<ul class="col-sm-6 col-md-6 col-lg-6">
-					<li id=" InstagramButton">
-						<a href="https://www.instagram.com/sidacharyamusic/">
-							<img class="hidden-xs" src="images/Instagram.png" alt="Instagram Logo">
-						</a>
-					</li>
-					<li id="FaceBookButton">
-						<a href="https://www.facebook.com/KeyboardSiddharth">
-							<img class="hidden-xs" src="images/Facebook.png" alt="Facebook Logo"></a>
-					</li>
-					<li id="TwitterButton">
-						<a href="https://twitter.com/sidacharyamusic">
-							<img class="hidden-xs" src="images/Twitter.png" alt="Twitter Logo"></a>
-					</li>
-				</ul>
 
 
-				<ul class="col-sm-6 col-md-6 col-lg-6">
-					<li id="AppleMusicButton">
-						<a href="#">
-							<img class="hidden-xs " src="images/Apple Music.png" alt="Apple Logo"></a>
-					</li>
-					<li id="SpotifyButton">
-						<a href="#">
-							<img class="hidden-xs" src="images/Spotify.png" alt="Spotify Logo"></a>
-					</li>
-					<li id="BandCampButton">
-						<a href="#">
-							<img class="hidden-xs" src="images/Bandcamp.png" alt="Bandcamp Logo"></a>
-					</li>
-					<li id="SoundcloudButton">
-						<a href="https://soundcloud.com/sidacharyamusic">
-							<img class="hidden-xs" src=" images/Soundcloud.png" alt="SoundCloud Logo"></a>
-					</li>
-				</ul>
-			</span>
+			<!--Icon Images-->
+			<div class="Icons ">
+				<span class="container ">
+					<ul class="row" id="socialmediabuttons">
+						<li id=" InstagramButton" class="col-xs-4 col-sm-6 col-md-6 col-lg-6">
+							<a href="https://www.instagram.com/sidacharyamusic/">
+								<img class="" src="images/Instagram.png" alt="Instagram Logo">
+							</a>
+						</li>
+						<li id="FaceBookButton" class="col-xs-4 col-sm-6 col-md-6 col-lg-6">
+							<a href="https://www.facebook.com/KeyboardSiddharth">
+								<img class="" src="images/Facebook.png" alt="Facebook Logo"></a>
+						</li>
+						<li id="TwitterButton" class="col-xs-4 col-sm-6 col-md-6 col-lg-6">
+							<a href="https://twitter.com/sidacharyamusic">
+								<img class="" src="images/Twitter.png" alt="Twitter Logo"></a>
+						</li>
+					</ul>
 
+
+					<ul class="row" id="musicbuttons">
+						<li id="AppleMusicButton" class="col-xs-3 col-sm-6 col-md-6 col-lg-6">
+							<a href="#">
+								<img class=" " src="images/Apple Music.png" alt="Apple Logo"></a>
+						</li>
+						<li id="SpotifyButton" class="col-xs-3 col-sm-6 col-md-6 col-lg-6">
+							<a href="#">
+								<img class="" src="images/Spotify.png" alt="Spotify Logo"></a>
+						</li>
+						<li id="BandCampButton" class="col-xs-3 col-sm-6 col-md-6 col-lg-6">
+							<a href="#">
+								<img class="" src="images/Bandcamp.png" alt="Bandcamp Logo"></a>
+						</li>
+						<li id="SoundcloudButton" class="col-xs-3 col-sm-6 col-md-6 col-lg-6">
+							<a href="https://soundcloud.com/sidacharyamusic">
+								<img class="" src=" images/Soundcloud.png" alt="SoundCloud Logo"></a>
+						</li>
+					</ul>
+				</span>
+
+			</div>
+			<!--End of class icons-->
+			<div class="Iconcool visible-xs visible-lg">
+
+			</div>
 		</div>
-		<!--End of class icons-->
-		<div class="Iconcool visible-lg">
-
-		</div>
+		<!--End of container fx-menu-->
 	</div>
+
 	<!--End of main-content-->
 	<!-- jQuery (Bootstrap JS plugins depend on it) -->
 	<script src="js/jquery-2.1.4.min.js"></script>
