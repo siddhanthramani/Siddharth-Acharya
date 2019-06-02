@@ -5,21 +5,14 @@ body {
 	text-align: center;
 		
 }
-
-
-/*Removes buttoned list*/
-#main-content ul{
-	list-style: none;		
-	
+ul{
+	list-style: none;
 }
-
-
-/*In desktop mode menu items in white*/
+/*In desktop mode menu items in color*/
 #Home a,#Story a,#Videos a,#Media a,#Contact a,#Tour a{
 	color:#2FC5D6;
 	text-transform: uppercase;
 	font-size: medium;
-	
 }
 /*In desktop mode menu items have no underline and have color on hover*/
 #Home a:hover,#Story a:hover,#Videos a:hover,#Media a:hover,#Contact a:hover,#Tour a:hover{
@@ -34,317 +27,141 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*To reduce the size of SocialIcon logo image in tab and desk view*/
-
-.Icons span.row ul{
-	line-height: 40px;
-	padding-right: 5px;
-
-}
-
-.Icons span.row
-{	background-color: #0A1938;
-	opacity: 0.7;
-	padding-right: 10px;
-	margin-right: 0px;
-	display: inline-block;
-}
-
-.Icons{	
-	position: absolute;
-	right: 4vw;
-	bottom: 0px;
-	
-}
-.Iconcool{	
-	background-color: #0A1938;
-	opacity: 0.7;
-	position: absolute;
-	bottom: 0px;
-	right: 4vw;
-	height: 48px;
-	width: 82px;
-		
-}
-
-
 /*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*/
 
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-	body{/*Makes the image cover the body */
-		background: url("../images/BG_LandingPage.png") no-repeat center fixed;
-		background-size:cover; 
-		width: 100vw;
-		height: 100vh;
-		
-	}
 	
-	
-	
-	#main-content ul.menuitems span{
-		display: flex;
-		justify-content: flex-end;
-			
-	}
-	.Icons span.row{
-
-		padding: 8px 8px 8px 8px;
-	}
-	.Icons span.row ul{
-		padding: 0px;
-		margin: 0px;
-	}
-
-	.Icons span.row ul li{
-        
-		padding:0px 4px 0px 4px;/*Left and right padding for list items*/
-}
-
-	.Icons ul a img{
-		max-width: 20px;
-		height: 20px;
-		object-fit: contain;
-	}
-	.Icons{
-		bottom: 64px;
-	}
-
-
-	.Icons ul #SoundcloudButton a img{
-		max-width: 30px;
-		}
-	.Icons ul #BandCampButton a img{
-		max-height: 30px;
-		
-	}
-	/*Menu Items get partial transparent bgcolor*/
-#main-content ul.menuitems li{
-	background-color: #0A1938;
-	opacity: 0.7;
-	padding:16px;
-	margin-top: 48px;
-}
-#main-content ul.menuitems #Home{
-	padding-left: 32px;
-}
-#main-content ul.menuitems #Contact{
-	padding-right: 32px;
-}
 
 }
   
-  /********** Medium devices only **********/
-  @media (min-width: 992px) and (max-width: 1199px) {
-	div#main-content {
-		background: url("../images/BG_desktop.png") no-repeat center  fixed;
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+  
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  }
+  
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	  /*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
+	#main-content {
+		background: url("../images/BG_LandingPage.png") no-repeat center  fixed;
 		background-size: cover;
-		position: relative;
 		width: 100vw;
 		height: 100vh;
+		overflow: auto;/*Makes the margin of fx-container transparent instead of white*/
+		
+
+	}
+	
+	#fx-container{
+		display: flex;
+		flex-direction: row;
+		margin-top: 5vh;/*Sets margintop pf brand and menu as required*/
+	}
+	#fx-menu{
+		width: 100%;
+		position: absolute;
+		bottom: 0px;/*Makes the menu items gravitate to bottom*/
+	}
+	
+	.menuxs{
+		background-color: #0A1938;
+		opacity: 0.7;
+		color:#2FC5D6;
+		width: 100px;
+		position: fixed;
+		transform: rotate(270deg) translate(-36px,-36px );/*Makes rotated image translate bby right dimensions*/
+	}
+	.brand{
+		
+		position: absolute;
+		right: 0px;
+	}
+  	#brandlogo{ 	
+		background-color: #0A1938;
+		opacity: 0.7;
+		max-width: 100%;
+		height: 100px;
+		object-fit: contain;
+		padding: 8px;
+		padding-right: 12px;
 		
 	}
-
 	
-	#main-content ul.menuitems span{
-		display: flex;
-		justify-content: center;
-			
-	}
-	.Icons span.row{
-		margin-top:0px; 
-		padding: 8px 8px 8px 8px;
-	}
-	.Icons span.row ul{
-		padding: 0px;
-		margin: 0px;
-	}
 
-	.Icons span.row ul li{
-        
-		padding:0px 4px 0px 4px;/*Left and right padding for list items*/
-}
+	#fx-menu ul.menuitems{
+		background-color:#2FC5D6;
+		color: lightblue;
+		opacity: 0.6;	
+		min-width: max-content;
+		max-width: 30vw;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		padding:30px 30px;/*Remove default*/
+		margin-bottom: 0px;/*Remove default*/
 
-	.Icons ul a img{
+	}
+	#fx-menu ul.menuitems li{
+		padding: 1px 0px;
+	}
+	#fx-menu .Icons ul.row a img{
 		max-width: 25px;
 		height: 25px;
 		object-fit: contain;
 	}
+	#fx-menu .Icons span ul.row{
+		padding:8px 0px;
+		margin: 0px;
+		
+		
+	}
+	#fx-menu .Icons span #socialmediabuttons{
+		max-width: 50%;
+		margin-left: auto;
+		margin-right: auto;	
+		
+	}
+	#fx-menu .Icons span #musicbuttons{
+		max-width: 80%;
+		margin-left: auto;
+		margin-right: auto;	
+	}
+	#fx-menu .Icons span ul.row li{
+		display: inline-block;
+		padding: 0px 5px;
+		
+		
+	}
+	#fx-menu .Icons{
+		
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 50vw;
+		
+	}
 	
-	.Icons ul #SoundcloudButton a img{
-		max-width: 30px;
-		height: 25px;
-		object-fit: contain;
-	}
-
-	  
-	#brandlogo{
-		background-color: #0A1938;
-		opacity: 0.7;
-		max-width: 1000px;
-		height: 100px;
-		object-fit: contain;
-		padding: 8px;
-		padding-right: 12px;
-	}
-	/*Menu Items get partial transparent bgcolor*/
-#main-content ul.menuitems li{
-	background-color: #0A1938;
-	opacity: 0.7;
-	padding: 4px 16px 4px 16px;
-	margin-top: 24px;
-}
-#main-content ul.menuitems #Home{
-	padding-left: 32px;
-}
-#main-content ul.menuitems #Contact{
-	padding-right: 32px;
-}
-
-}
-  
-  /********** Small devices only **********/
-  @media (min-width: 768px) and (max-width: 991px) {
-		div#main-content {
-			background: url("../images/BG_desktop.png") no-repeat center  fixed;
-			background-size: cover;
-			position: relative;
-			width: 100vw;
-			height: 100vh;
+	
+	
+	.Iconcool{	
+		background-color:#2FC5D6;
+		color: lightblue;
+		opacity: 0.6;
+		max-width: 30vw;
+		margin-left: auto;
+		margin-right: auto;
+		height: 48px;
 			
-		}
-	
-		
-		#main-content ul.menuitems span{
-			display: flex;
-			justify-content: center;
-				
-		}
-		.Icons span.row{
-			margin-top:0px; 
-			padding: 8px 8px 8px 8px;
-		}
-		.Icons span.row ul{
-			padding: 0px;
-			margin: 0px;
-		}
-	
-		.Icons span.row ul li{
-					
-			padding:0px 4px 0px 4px;/*Left and right padding for list items*/
-	}
-	
-		.Icons ul a img{
-			max-width: 25px;
-			height: 25px;
-			object-fit: contain;
-		}
-		
-		.Icons ul #SoundcloudButton a img{
-			max-width: 30px;
-			height: 25px;
-			object-fit: contain;
-		}
-	
-			
-		#brandlogo{
-			background-color: #0A1938;
-			opacity: 0.7;
-			max-width: 1000px;
-			height: 100px;
-			object-fit: contain;
-			padding: 8px;
-			padding-right: 12px;
-		}
-		/*Menu Items get partial transparent bgcolor*/
-	#main-content ul.menuitems li{
-		background-color: #0A1938;
-		opacity: 0.7;
-		padding: 4px 16px 4px 16px;
-		margin-top: 24px;
-	}
-	#main-content ul.menuitems #Home{
-		padding-left: 32px;
-	}
-	#main-content ul.menuitems #Contact{
-		padding-right: 32px;
 	}
 	
 }
-  
-  /********** Extra small devices only **********/
-  @media (max-width: 767px) {
-	  /*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
-	div#main-content {
-		background: url("../images/BG_Tablet&Mobile.png") no-repeat center  fixed;
-		background-size: cover;
-		width: 100vw;
-		height: 100vh;
-		
-	}
-  #brandlogo{
-		background-color: #0A1938;
-		opacity: 0.7;
-		max-width: 1000px;
-		height: 100px;
-		object-fit: contain;
-		margin-top: 16px;
-		padding: 8px;
-		padding-right: 12px;
-		float:right;
-	}
-	.menuxs{
-		background-color: #0A1938;
-		opacity: 0.7;
-		transform: rotate(270deg);
-		float: left;
-		margin-top: 44px;
-		margin-left: -32px;
-		padding:8px 2px 8px 2px;
-		width: 100px;
-		color:#2FC5D6;
-		
-		
-	}
-}
+	
+	
+	
