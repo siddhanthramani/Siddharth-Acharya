@@ -3,6 +3,9 @@ document.addEventListener("DOMContentLoaded",
     function (event) {
 
         function myFunction(x) {
+
+
+
             if (x.matches) { // If media query matches
                 document.getElementById("fx-icon").style.display = "none";
                 document.getElementById("menunav").style.display = "none";
@@ -19,9 +22,10 @@ document.addEventListener("DOMContentLoaded",
                     mc.style.background = "none";
                     mc.style.backgroundColor = "#0A1938";
                     mc.style.opacity = "0.7";
-                    var bo = document.querySelector("body")
+                    var bo = document.querySelector("body");
                     bo.style.background = "url('../images/BG_LandingPage.png') no-repeat center  fixed";
                     bo.style.backgroundSize = "cover";
+
                 }
                 function closeclick(event) {
                     var men = document.querySelector("#fx-container");
@@ -30,12 +34,15 @@ document.addEventListener("DOMContentLoaded",
                     document.getElementById("menunav").style.display = "none";
                     document.getElementById("cross").style.display = "none";
                     var mc = document.querySelector("#main-content");
-                    mc.style.background = "url('../images/BG_LandingPage.png') no-repeat center  fixed";
-                    mc.style.backgroundSize = "cover";
+
                     mc.style.backgroundColor = "transparent";
                     mc.style.opacity = "1";
-                    var bo = document.querySelector("body")
-                    bo.style.background = "none";
+                    // mc.style.background = "url('../images/BG_LandingPage.png') no-repeat center  fixed";
+                    // mc.style.backgroundSize = "cover";
+                    // var bo = document.querySelector("body");
+                    // bo.style.background = "none";
+                    // Dont know why it doesnt work with bg pc set on main content and not body
+
 
                 }
                 document.getElementById("menubutton")
@@ -49,6 +56,18 @@ document.addEventListener("DOMContentLoaded",
                 document.getElementById("fx-icon").style.display = "block";
                 document.getElementById("menunav").style.display = "block";
                 document.getElementById("cross").style.display = "none";
+                var men = document.querySelector("#fx-container");
+                men.style.display = "block";
+                document.getElementById("fx-icon").style.display = "block";
+                document.getElementById("menunav").style.display = "block";
+                document.getElementById("cross").style.display = "none";
+                var mc = document.querySelector("#main-content");
+                mc.style.backgroundColor = "transparent";
+                mc.style.opacity = "1";
+
+
+
+
             }
         }
 

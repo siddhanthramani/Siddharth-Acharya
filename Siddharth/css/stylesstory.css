@@ -28,6 +28,10 @@
         height: 100vh;	
         
     }
+    #main-content ul.menuitems {
+        align-self: flex-end;/*Aligns the menu items to right end of main-content*/
+        padding-right: 0px;	/*Removes any padding in the right*/
+	}
     /**/
     .Icons{
         position: absolute; 
@@ -50,22 +54,21 @@
         padding:8px;/*Left and right padding for list items*/
     }
 
-	#main-content ul.menuitems {
-        align-self: flex-end;/*Aligns the menu items to right end of main-content*/
-        padding-right: 0px;	/*Removes any padding in the right*/
-	}
+	
 	.Icons ul a img{
         max-width: 20px;
         height: 20px;
         object-fit: contain;/*Controls the size of Social Media Icons*/
 	}
-	
+    
+    
+    
     #mainstory{
     height: max-content;/*Wraps around content*/
-    width: max-content;
     padding: 32px 42px 28px 42px;/*Bottom is 10 px less due to padding from para tag(10px)*/
     width: 55vw;
-    align-self: flex-end;/*Sticks to right end of maincontent*/
+    position: absolute;
+    right: 0px;/*Sticks to right end of maincontent*/
     overflow: scroll ;/*If text overflows, then scroll*/
     overflow-x: hidden;/*Hides the width scroll*/
     overflow-y: hidden;
@@ -86,18 +89,21 @@
 	div#main-content {
 		background: url("../images/BG_Story.png") no-repeat center  fixed;
         background-size: cover;
-       
 		width: 100vw;
         height: 100vh;
     
            
     }
+    #main-content ul.menuitems {
+        align-self: flex-end;/*Aligns the menu items to right end of main-content*/
+        padding-right: 0px;	/*Removes any padding in the right*/
+	}
      /**/
      .Icons{
         position: absolute; 
         right: 0px;       
         bottom: 0px;/*Makes the icons stick to the right of the body*/
-        margin-bottom: 24px;/*Gives a margin at bottom for icons*/
+        margin-bottom: 0px;/*Gives a margin at bottom for icons*/
     }
 	
     .Icons span.row{
@@ -114,21 +120,20 @@
         padding:8px;/*Left and right padding for list items*/
     }
 
-	#main-content ul.menuitems {
-        align-self: flex-end;/*Aligns the menu items to right end of main-content*/
-        padding-right: 0px;	/*Removes any padding in the right*/
-	}
+	
 	.Icons ul a img{
         max-width: 20px;
         height: 20px;
         object-fit: contain;/*Controls the size of Social Media Icons*/
 	}
     #mainstory{
-        height: max-content;/*Wraps around content*/
+        max-height: max-content;/*Wraps around content*/
         width: max-content;
-        margin-top: 36px;
-        height: 60vh;
-        width: 40vw;;
+        margin-top: 16px;
+        height: 50vh;
+        width: 40vw;
+        position: absolute;
+        right: 0px;/*Sticks to right end of maincontent*/
         overflow: scroll ;
         overflow-x: hidden;
         font-size: 16px;
@@ -139,6 +144,7 @@
 	
 	
 }
+  
   
   
   /********** Extra small devices only **********/
@@ -153,11 +159,11 @@
     }
 
     #mainstory{
-        height: max-content;/*Wraps around content*/
+        max-height: max-content;/*Wraps around content*/
         height: 60vh;
         width: 100vw;
-        position: relative;
-        top: 36px;
+        position: absolute;
+        top: 30vh;
         overflow: scroll ;
         overflow-x: hidden;
         font-size: 16px;
