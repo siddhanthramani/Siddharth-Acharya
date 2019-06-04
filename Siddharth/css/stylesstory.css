@@ -81,8 +81,8 @@
 
 }
   
-  /********** Medium devices only **********/
-  @media (min-width: 992px) and (max-width: 1199px) {
+  /********** Medium devices and Small devices  **********/
+  @media (min-width: 768px) and (max-width: 1199px) {
 	div#main-content {
 		background: url("../images/BG_Story.png") no-repeat center  fixed;
         background-size: cover;
@@ -140,61 +140,6 @@
 	
 }
   
-  /********** Small devices only **********/
-  @media (min-width: 768px) and (max-width: 991px) {
-	div#main-content {
-		background: url("../images/BG_Story.png") no-repeat center  fixed;
-        background-size: cover;
-      
-		width: 100vw;
-        height: 100vh;
-    
-           
-    }
-     /**/
-     .Icons{
-        position: absolute; 
-        right: 0px;       
-        bottom: 0px;/*Makes the icons stick to the right of the body*/
-        margin-bottom: 24px;/*Gives a margin at bottom for icons*/
-    }
-	
-    .Icons span.row{
-
-        padding: 0px 16px 4px 16px;
-    }
-	.Icons span.row ul{	
-        display: flex;/*Makes all the icons lie on the same plane*/
-        padding:0px;/*Removes padding set by styles_mine*/
-        width: max-content;/*Wraps around content*/
-    }
-    .Icons span.row ul li{
-        
-        padding:8px;/*Left and right padding for list items*/
-    }
-
-	#main-content ul.menuitems {
-        align-self: flex-end;/*Aligns the menu items to right end of main-content*/
-        padding-right: 0px;	/*Removes any padding in the right*/
-	}
-	.Icons ul a img{
-        max-width: 20px;
-        height: 20px;
-        object-fit: contain;/*Controls the size of Social Media Icons*/
-	}
-    #mainstory{
-        height: max-content;/*Wraps around content*/
-        width: max-content;
-        margin-top: 36px;
-        height: 60vh;
-        width: 40vw;;
-        overflow: scroll ;
-        overflow-x: hidden;
-        font-size: 16px;
-        font-weight: 900;  
-    }
-
-}
   
   /********** Extra small devices only **********/
   @media (max-width: 767px) {

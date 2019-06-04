@@ -110,6 +110,7 @@ body {
 	#main-content ul.menuitems #Contact{
 		padding-right: 32px;
 	}
+	/*
 	.Icons span.row{
 		
 		padding-right: 10px;
@@ -125,10 +126,10 @@ body {
 	}
 
 	.Icons span.row ul li{
-    	padding:0px 4px 0px 4px;/*Left and right padding for list items*/
-	}
-
+    	padding:0px 4px 0px 4px;}/*Left and right padding for list items*/
 	
+
+	/*
 	#fx-icon{
 		display: flex;
 		position: absolute;
@@ -144,17 +145,60 @@ body {
 		align-self: flex-start;
 		margin-bottom: 20px;
 	}
+		*/
+		.Icons{	
+			position: absolute;
+			width: max-content;
+			right: 4vw;
+			bottom: 0px;
+			
+		}
+		.Icons span.row{
+			background-color: #0A1938;
+			opacity: 0.7;
+			padding-right: 10px;
+			margin-right: 0px;
+			display: inline-block;
+			margin-top:0px; 
+			padding: 8px 8px 8px 8px;
+		}
+		.Icons span.row ul{
+			line-height: 40px;
+			padding-right: 5px;
+			padding: 0px;
+			margin: 0px;
+		}
+	
+		.Icons span.row ul li{
+			
+			padding:0px 4px 0px 4px;/*Left and right padding for list items*/
+		}
+	
+		.Icons ul a img{
+			max-width: 25px;
+			height: 25px;
+			object-fit: contain;
+		}
 		
+		.Icons ul #SoundcloudButton a img{
+			max-width: 30px;
+			height: 25px;
+			object-fit: contain;
+		}
 	.Iconcool{	
 		background-color: #0A1938;
 		opacity: 0.7;	
 		width: 100%;
 		height: 40px;
 		align-self: flex-start;
+		position: absolute;
+		
+		
+		bottom: 0px;
 		
 		
 	}
-
+/*
 	.Icons ul a img{
 		max-width: 25px;
 		height: 25px;
@@ -167,10 +211,10 @@ body {
 		max-height: 30px;
 		
 	}
-	
+	*/
 }
   
-  /********** Medium devices only **********/
+  /********** Medium devices and Small Devices only **********/
   @media (min-width: 768px) and (max-width: 1199px) {
 	div#main-content {
 		background: url("../images/BG_LandingPage.png") no-repeat center  fixed;

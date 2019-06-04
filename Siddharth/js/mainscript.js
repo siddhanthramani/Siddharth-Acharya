@@ -15,10 +15,13 @@ document.addEventListener("DOMContentLoaded",
                     document.getElementById("fx-icon").style.display = "block";
                     document.getElementById("menunav").style.display = "block";
                     document.getElementById("cross").style.display = "block";
-                    var bo = document.querySelector("#main-content");
-                    bo.style.background = "none";
-                    bo.style.backgroundColor = "#0A1938";
-                    bo.style.opacity = "1";
+                    var mc = document.querySelector("#main-content");
+                    mc.style.background = "none";
+                    mc.style.backgroundColor = "#0A1938";
+                    mc.style.opacity = "0.7";
+                    var bo = document.querySelector("body")
+                    bo.style.background = "url('../images/BG_LandingPage.png') no-repeat center  fixed";
+                    bo.style.backgroundSize = "cover";
                 }
                 function closeclick(event) {
                     var men = document.querySelector("#fx-container");
@@ -26,10 +29,13 @@ document.addEventListener("DOMContentLoaded",
                     document.getElementById("fx-icon").style.display = "none";
                     document.getElementById("menunav").style.display = "none";
                     document.getElementById("cross").style.display = "none";
-                    var bo = document.querySelector("#main-content");
-                    bo.style.background = "url('../images/BG_LandingPage.png') no-repeat center  fixed";
-                    bo.style.backgroundSize = "cover";
-                    bo.style.backgroundColor = "transparent";
+                    var mc = document.querySelector("#main-content");
+                    mc.style.background = "url('../images/BG_LandingPage.png') no-repeat center  fixed";
+                    mc.style.backgroundSize = "cover";
+                    mc.style.backgroundColor = "transparent";
+                    mc.style.opacity = "1";
+                    var bo = document.querySelector("body")
+                    bo.style.background = "none";
 
                 }
                 document.getElementById("menubutton")
