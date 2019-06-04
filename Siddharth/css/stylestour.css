@@ -224,7 +224,7 @@
   @media (max-width: 767px) {
 	  /*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
 	div#main-content {
-		background: url("../images/BG_Tour.png") no-repeat center  fixed;
+		background: url("../images/BG_MobileTab.png") no-repeat center  fixed;
 		background-size: cover;
 		width: 100vw;
 		height: 100vh;

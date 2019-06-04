@@ -93,7 +93,7 @@
       /********** Medium devices only **********/
       @media (min-width: 992px) and (max-width: 1199px) {
         div#main-content {
-            background: url("../images/BG_MobileTab.png") no-repeat center  fixed;
+            background: url("../images/BG_Contact.png") no-repeat center  fixed;
             background-size: cover;
             width: 100vw;
             height: 100vh;
@@ -153,7 +153,7 @@
       /********** Small devices only **********/
       @media (min-width: 768px) and (max-width: 991px) {
         div#main-content {
-            background: url("../images/BG_MobileTab.png") no-repeat center  fixed;
+            background: url("../images/BG_Contact.png") no-repeat center  fixed;
             background-size: cover;
             
             width: 100vw;
