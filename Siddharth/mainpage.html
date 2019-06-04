@@ -5,7 +5,8 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Siddharth Acharya</title>
+	<title>Sid Acharya</title>
+
 	<link rel="stylesheet" href="css/bootstrap.css" />
 	<link rel="stylesheet" href="css/styles_mine.css" />
 	<link href="fonts\stylesheet.css" rel="stylesheet" type="text/css" />
@@ -16,11 +17,11 @@
 	<div id="main-content">
 
 		<div id="fx-container">
-
-			<div class="menuxs visible-xs">
+			<div class="menuxs visible-xs" id="menubutton">
 				Menu
 			</div>
-			<div class="brand hidden-lg">
+
+			<div class=" brand hidden-lg">
 				<a>
 					<img id="brandlogo" src="images/Logo_WithBox_Tablet.png">
 				</a>
@@ -29,8 +30,13 @@
 		</div>
 		<!--End of div fx-container-->
 		<div id="fx-menu">
+			<div id="close" class="visible-xs">
+				<a>
+					<img id="cross" src="images/Cross.png">
+				</a>
+			</div>
 
-			<ul class="menuitems">
+			<ul class="menuitems" id="menunav">
 				<span>
 					<!--Visible only for large devices-->
 
@@ -39,8 +45,8 @@
 							Home</a>
 					</li>
 
-					<li id="Story">
-						<a href="story.html">
+					<li id="Story" onfocus="menuClick();">
+						<a href=" story.html">
 							Story</a>
 					</li>
 
@@ -48,16 +54,16 @@
 						<a href="tour.html" onclick="">
 							Tour</a>
 					</li>
-
+					<li id="Videos">
+						<a href="#">
+							Videos</a>
+					</li>
 					<li id="Media">
 						<a href="#">
 							Media</a>
 					</li>
 
-					<li id="Videos">
-						<a href="#">
-							Video</a>
-					</li>
+
 
 					<li id="Contact">
 						<a href="contact.html">
@@ -67,51 +73,52 @@
 				</span>
 			</ul><!-- #nav-list -->
 
+			<div id="fx-icon">
+				<!--Icon Images-->
+				<div class="Icons container ">
+					<span class="row ">
+						<ul class=" col-sm-6 col-md-6 col-lg-6" id="socialmediabuttons">
+							<li id="InstagramButton" class=" ">
+								<a href="https://www.instagram.com/sidacharyamusic/">
+									<img class="" src="images/Instagram.png" alt="Instagram Logo">
+								</a>
+							</li>
+							<li id="FaceBookButton" class="">
+								<a href="https://www.facebook.com/KeyboardSiddharth">
+									<img class="" src="images/Facebook.png" alt="Facebook Logo"></a>
+							</li>
+							<li id="TwitterButton" class="">
+								<a href="https://twitter.com/sidacharyamusic">
+									<img class="" src="images/Twitter.png" alt="Twitter Logo"></a>
+							</li>
+						</ul>
 
-			<!--Icon Images-->
-			<div class="Icons ">
-				<span class="container ">
-					<ul class="row" id="socialmediabuttons">
-						<li id=" InstagramButton" class="col-xs-4 col-sm-6 col-md-6 col-lg-6">
-							<a href="https://www.instagram.com/sidacharyamusic/">
-								<img class="" src="images/Instagram.png" alt="Instagram Logo">
-							</a>
-						</li>
-						<li id="FaceBookButton" class="col-xs-4 col-sm-6 col-md-6 col-lg-6">
-							<a href="https://www.facebook.com/KeyboardSiddharth">
-								<img class="" src="images/Facebook.png" alt="Facebook Logo"></a>
-						</li>
-						<li id="TwitterButton" class="col-xs-4 col-sm-6 col-md-6 col-lg-6">
-							<a href="https://twitter.com/sidacharyamusic">
-								<img class="" src="images/Twitter.png" alt="Twitter Logo"></a>
-						</li>
-					</ul>
 
+						<ul class="	 col-sm-6 col-md-6 col-lg-6 " id="musicbuttons">
+							<li id="AppleMusicButton" class=" ">
+								<a href="#">
+									<img class=" " src="images/Apple Music.png" alt="Apple Logo"></a>
+							</li>
+							<li id="SpotifyButton" class="">
+								<a href="#">
+									<img class="" src="images/Spotify.png" alt="Spotify Logo"></a>
+							</li>
+							<li id="BandCampButton" class="">
+								<a href="#">
+									<img class="" src="images/Bandcamp.png" alt="Bandcamp Logo"></a>
+							</li>
+							<li id="SoundcloudButton" class=" ">
+								<a href="https://soundcloud.com/sidacharyamusic">
+									<img class="" src=" images/Soundcloud.png" alt="SoundCloud Logo"></a>
+							</li>
+						</ul>
+					</span>
 
-					<ul class="row" id="musicbuttons">
-						<li id="AppleMusicButton" class="col-xs-3 col-sm-6 col-md-6 col-lg-6">
-							<a href="#">
-								<img class=" " src="images/Apple Music.png" alt="Apple Logo"></a>
-						</li>
-						<li id="SpotifyButton" class="col-xs-3 col-sm-6 col-md-6 col-lg-6">
-							<a href="#">
-								<img class="" src="images/Spotify.png" alt="Spotify Logo"></a>
-						</li>
-						<li id="BandCampButton" class="col-xs-3 col-sm-6 col-md-6 col-lg-6">
-							<a href="#">
-								<img class="" src="images/Bandcamp.png" alt="Bandcamp Logo"></a>
-						</li>
-						<li id="SoundcloudButton" class="col-xs-3 col-sm-6 col-md-6 col-lg-6">
-							<a href="https://soundcloud.com/sidacharyamusic">
-								<img class="" src=" images/Soundcloud.png" alt="SoundCloud Logo"></a>
-						</li>
-					</ul>
-				</span>
+				</div>
+				<!--End of class icons-->
+				<div class="Iconcool visible-xs visible-lg ">
 
-			</div>
-			<!--End of class icons-->
-			<div class="Iconcool visible-xs visible-lg">
-
+				</div>
 			</div>
 		</div>
 		<!--End of container fx-menu-->
@@ -122,7 +129,8 @@
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/ajax-utils.js"></script>
-	<script src="js/script_again.js"></script>
+	<script src="js/mainscript.js"></script>
+
 </body>
 
 </html>
