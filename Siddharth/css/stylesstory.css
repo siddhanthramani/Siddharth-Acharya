@@ -33,6 +33,11 @@
         padding-right: 0px;	/*Removes any padding in the right*/
 	}
     /**/
+    #fx-icon{
+        position: absolute;
+        right: 0px;
+        
+    }
     .Icons{
         position: absolute; 
         right: 0px;       
@@ -53,15 +58,11 @@
         
         padding:8px;/*Left and right padding for list items*/
     }
-
-	
-	.Icons ul a img{
+    .Icons ul a img{
         max-width: 20px;
         height: 20px;
         object-fit: contain;/*Controls the size of Social Media Icons*/
 	}
-    
-    
     
     #mainstory{
     height: max-content;/*Wraps around content*/
@@ -99,11 +100,33 @@
         padding-right: 0px;	/*Removes any padding in the right*/
 	}
      /**/
-     .Icons{
+   
+    #mainstory{
+        max-height: max-content;/*Wraps around content*/
+        width: max-content;
+        margin-top: 16px;
+        height: 50vh;
+        width: 40vw;
+        position: absolute;
+        right: 0px;/*Sticks to right end of maincontent*/
+        overflow: scroll ;
+        overflow-x: hidden;
+        font-size: 16px;
+        font-weight: 900;          
+    }
+    #fx-icon{
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        margin-top: 10vh;
+        
+    }
+    .Icons{
         position: absolute; 
         right: 0px;       
         bottom: 0px;/*Makes the icons stick to the right of the body*/
-        margin-bottom: 0px;/*Gives a margin at bottom for icons*/
+        margin-bottom: 8px;/*Gives a margin at bottom for icons*/
+        padding-right: 0px;
     }
 	
     .Icons span.row{
@@ -119,30 +142,12 @@
         
         padding:8px;/*Left and right padding for list items*/
     }
-
-	
-	.Icons ul a img{
+    .Icons ul a img{
         max-width: 20px;
         height: 20px;
         object-fit: contain;/*Controls the size of Social Media Icons*/
 	}
-    #mainstory{
-        max-height: max-content;/*Wraps around content*/
-        width: max-content;
-        margin-top: 16px;
-        height: 50vh;
-        width: 40vw;
-        position: absolute;
-        right: 0px;/*Sticks to right end of maincontent*/
-        overflow: scroll ;
-        overflow-x: hidden;
-        font-size: 16px;
-        font-weight: 900;
-               
-    }
     
-	
-	
 }
   
   
