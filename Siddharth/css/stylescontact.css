@@ -57,7 +57,13 @@
         .Icons span.row ul{	
             display: flex;/*Makes all the icons lie on the same plane*/
             padding:0px;/*Removes padding set by styles_mine*/
-            width: max-content;/*Wraps around content*/
+           
+        }
+        .Icons span.row #socialmediabuttons{
+            width: 101.667px;
+        }   
+        .Icons span.row #musicbuttons{
+            width: 164px;
         }
         .Icons span.row ul li{
             
@@ -130,7 +136,13 @@
         .Icons span.row ul{	
             display: flex;/*Makes all the icons lie on the same plane*/
             padding:0px;/*Removes padding set by styles_mine*/
-            width: max-content;/*Wraps around content*/
+           
+        }
+        .Icons span.row #socialmediabuttons{
+            width: 101.667px;
+        }   
+        .Icons span.row #musicbuttons{
+            width: 164px;
         }
         .Icons span.row ul li{
             
