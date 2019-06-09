@@ -1,6 +1,75 @@
 document.addEventListener("DOMContentLoaded",
 
     function (event) {
+        var hid = 1;
+        var first = document.querySelectorAll(".firsttour");
+        var second = document.querySelectorAll(".secondtour");
+        var j;
+        for (j = 0; j < first.length; j++) {
+            first[j].style.display = "block";
+        };
+        for (j = 0; j < second.length; j++) {
+            second[j].style.display = "none";
+        };
+
+        function rightclick(event) {
+
+            console.log("before right" + hid);
+            if (hid == 2) {
+                hid = 0;
+            }
+            hid++;
+
+            console.log("after right" + hid);
+            if (hid == 1) {
+                for (j = 0; j < first.length; j++) {
+                    first[j].style.display = "block";
+                };
+                for (j = 0; j < second.length; j++) {
+                    second[j].style.display = "none";
+                };
+            }
+            else if (hid == 2) {
+                for (j = 0; j < first.length; j++) {
+                    first[j].style.display = "none";
+                };
+                for (j = 0; j < second.length; j++) {
+                    second[j].style.display = "block";
+                };
+            }
+        };
+        document.getElementById("right")
+            .addEventListener("click", rightclick);
+
+        function leftclick(event) {
+
+            console.log("before left" + hid);
+            if (hid == 1) {
+                hid = 3;
+            }
+            hid--;
+
+            console.log("after left " + hid);
+            if (hid == 1) {
+                for (j = 0; j < first.length; j++) {
+                    first[j].style.display = "block";
+                };
+                for (j = 0; j < second.length; j++) {
+                    second[j].style.display = "none";
+                };
+
+            }
+            else if (hid == 2) {
+                for (j = 0; j < first.length; j++) {
+                    first[j].style.display = "none";
+                };
+                for (j = 0; j < second.length; j++) {
+                    second[j].style.display = "block";
+                };
+            }
+        };
+        document.getElementById("left")
+            .addEventListener("click", leftclick);
 
         function myFunction(x) {
 
@@ -9,16 +78,14 @@ document.addEventListener("DOMContentLoaded",
             if (x.matches) { // If media query matches
 
                 function menuclick(event) {
-                    document.getElementById("upcomingevents").style.display = "none";
-                    document.getElementById("event").style.display = "none";
+                    document.getElementById("maintour").style.display = "none";
                     var bo = document.querySelector("body");
                     bo.style.background = "url('../images/BG_MobileTab.png') no-repeat center  fixed";
                     bo.style.backgroundSize = "cover";
 
                 }
                 function closeclick(event) {
-                    document.getElementById("upcomingevents").style.display = "block";
-                    document.getElementById("event").style.display = "block";
+                    document.getElementById("maintour").style.display = "block";
                     var bo = document.querySelector("body");
                     bo.style.background = "url('../images/BG_MobileTab.png') no-repeat center  fixed";
                     bo.style.backgroundSize = "cover";
@@ -33,8 +100,7 @@ document.addEventListener("DOMContentLoaded",
 
             }
             else {
-                document.getElementById("upcomingevents").style.display = "block";
-                document.getElementById("event").style.display = "block";
+                document.getElementById("maintour").style.display = "block";
                 var bo = document.querySelector("body");
                 bo.style.background = "url('../images/BG_Tour.png') no-repeat center  fixed";
                 bo.style.backgroundSize = "cover";
@@ -49,6 +115,11 @@ document.addEventListener("DOMContentLoaded",
 
 
 );
+
+
+
+
+
 
 
 

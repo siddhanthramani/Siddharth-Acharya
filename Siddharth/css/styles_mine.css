@@ -27,6 +27,7 @@ body {
 #Home a:hover,#Story a:hover,#Videos a:hover,#Media a:hover,#Contact a:hover,#Tour a:hover{
 	text-decoration: none;
 	color: aquamarine;
+	cursor: pointer;
 	
 }
 /*Icon in desktop will not have hover style*/
@@ -209,7 +210,7 @@ body {
 		max-width: 30px;
 		}
 	.Icons ul #BandCampButton a img{
-		max-height: 30px;
+		max-width: 30px;
 		
 	}
 	
@@ -339,6 +340,7 @@ body {
 	  
 	  position: absolute;
 	  right: 0px;
+	  display: fixed;
   	}
 	#brandlogo{ 	
 	  background-color: #0A1938;
