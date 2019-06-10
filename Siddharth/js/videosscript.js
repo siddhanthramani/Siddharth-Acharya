@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded",
                 function menuclick(event) {
                     document.getElementById("mainvideos").style.display = "none";
                     var bo = document.querySelector("body");
-                    bo.style.background = "url('../images/BG_MobileTab.png') no-repeat center  fixed";
+                    bo.style.background = "url('C:/Users/Lenovo/Desktop/Siddharth/Siddharth-Acharya/Siddharth/images/BG_MobileTab.png') no-repeat center  fixed";
                     bo.style.backgroundSize = "cover";
 
                 }
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded",
                     mv.style.width = "339px";
                     mv.style.height = "50vh";
                     var bo = document.querySelector("body");
-                    bo.style.background = "url('../images/BG_MobileTab.png') no-repeat center  fixed";
+                    bo.style.background = "url('C:/Users/Lenovo/Desktop/Siddharth/Siddharth-Acharya/Siddharth/images/BG_MobileTab.png') no-repeat center  fixed";
                     bo.style.backgroundSize = "cover";
 
 
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded",
                 mv.style.width = "339px";
                 mv.style.height = "50vh";
                 var bo = document.querySelector("body");
-                bo.style.background = "url('../images/BG_Videos.png') no-repeat center  fixed";
+                bo.style.background = "url('C:/Users/Lenovo/Desktop/Siddharth/Siddharth-Acharya/Siddharth/images/BG_Videos.png') no-repeat center  fixed";
                 bo.style.backgroundSize = "cover";
 
 

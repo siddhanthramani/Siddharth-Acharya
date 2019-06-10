@@ -91,6 +91,7 @@ body {
 		background-size:cover; 
 		width: 100vw;
 		height: 100vh;
+		background-position: top;
 		
 	}
 
@@ -381,7 +382,7 @@ body {
 	  margin-left: auto;
 	  margin-right: auto;
 	  text-align: center;
-	  padding:30px 30px;/*Remove default*/
+	  padding:30px 30px;/*Remove default*/	
 	  margin-bottom: 0px;/*Remove default*/
 
 	  }
