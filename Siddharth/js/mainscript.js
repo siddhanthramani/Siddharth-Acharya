@@ -173,6 +173,7 @@ document.addEventListener("DOMContentLoaded",
                     mc.style.background = "none";
                     mc.style.backgroundColor = "#0A1938";
                     mc.style.opacity = "0.7";
+
                     var bo = document.querySelector("body");
                     bo.style.background = "url('../Siddharth/images/BG_LandingPage.png') no-repeat center  fixed";
                     bo.style.backgroundSize = "cover";

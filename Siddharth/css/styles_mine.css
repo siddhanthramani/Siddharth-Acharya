@@ -151,7 +151,7 @@ body {
 		#fx-icon{
 			display: flex;
 			position: absolute;
-			max-width: 87px;
+			max-width: 103px;
 			right: 4vw;
 			bottom:0px;
 			flex-direction: column;
@@ -174,7 +174,7 @@ body {
 			margin-right: 0px;
 			display: inline-block;
 			margin-top:0px; 
-			padding: 8px 8px 8px 8px;
+			padding: 16px;
 		}
 		.Icons span.row ul{
 			line-height: 40px;
@@ -373,7 +373,8 @@ body {
   	}
   
 
-  	#fx-menu ul.menuitems{
+	  
+	  #fx-menu ul.menuitems{
 	  background-color:#2FC5D6;
 	  color: white;
 	  opacity: 0.6;	
@@ -387,7 +388,7 @@ body {
 
 	  }
 	#Home a,#Story a,#Videos a,#Media a,#Contact a,#Tour a{
-		color:black;
+		color:#0A1938;
 		text-transform: uppercase;
 		font-size: medium;
 		
@@ -414,9 +415,9 @@ body {
 	  margin-right: auto;	
 	  
   	}
- 		 #fx-menu .Icons span #musicbuttons{
+	#fx-menu .Icons span #musicbuttons{
 		
-	  min-width: 70%;
+	  min-width: 100%;
 	  max-width: 150px;
 	  margin-left: auto;
 	  margin-right: auto;	
@@ -424,15 +425,12 @@ body {
   	#fx-menu .Icons span ul li{
 	  display: inline-block;
 	  padding: 0px 5px;
-	  
-	  
-  	}
+	}
 	#fx-menu .Icons{
-	
 	  margin-left: auto;
 	  margin-right: auto;
 	  max-width: 50vw;
-	  
+ 
   	}
 	#socialmediabuttons{
 	  display: flex;
@@ -449,7 +447,7 @@ body {
 	width: 25%;
   	}
   
-  
+	  
   	.Iconcool{	
 	  background-color:#2FC5D6;
 	  color: lightblue;
@@ -458,7 +456,8 @@ body {
 	  max-width: 30vw;
 	  margin-left: auto;
 	  margin-right: auto;
-	  height: 48px;
+	  height: 48px;	
+	 
 		  
   	}
   
