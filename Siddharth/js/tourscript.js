@@ -80,14 +80,14 @@ document.addEventListener("DOMContentLoaded",
                 function menuclick(event) {
                     document.getElementById("maintour").style.display = "none";
                     var bo = document.querySelector("body");
-                    bo.style.background = "url('C:/Users/Lenovo/Desktop/Siddharth/Siddharth-Acharya/Siddharth/images/BG_MobileTab.png') no-repeat center  fixed";
+                    bo.style.background = "url('../Siddharth/images/BG_MobileTab.png') no-repeat center  fixed";
                     bo.style.backgroundSize = "cover";
 
                 }
                 function closeclick(event) {
                     document.getElementById("maintour").style.display = "block";
                     var bo = document.querySelector("body");
-                    bo.style.background = "url('C:/Users/Lenovo/Desktop/Siddharth/Siddharth-Acharya/Siddharth/images/BG_MobileTab.png') no-repeat center  fixed";
+                    bo.style.background = "url('../Siddharth/images/BG_MobileTab.png') no-repeat center  fixed";
                     bo.style.backgroundSize = "cover";
 
 
@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded",
             else {
                 document.getElementById("maintour").style.display = "block";
                 var bo = document.querySelector("body");
-                bo.style.background = "url('C:/Users/Lenovo/Desktop/Siddharth/Siddharth-Acharya/Siddharth/images/BG_Tour.png') no-repeat center  fixed";
+                bo.style.background = "url('../Siddharth/images/BG_Tour.png') no-repeat center  fixed";
                 bo.style.backgroundSize = "cover";
             }
         }

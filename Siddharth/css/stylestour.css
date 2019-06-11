@@ -4,29 +4,19 @@
 
 }
 
-#uparrow{
-	align-self: flex-start;
-	display: flex;
-	flex-direction: row;
-	max-height: 45.67px;
-	height:max-content;
-	width: 100%;
-	flex-wrap: nowrap;
-	position: relative;
 
-}
-#maintour #uparrow img.arrow{
+#maintour img.arrow{
 	height:auto;
 	max-width: 25px;
 	margin: 0px auto;
 	object-fit: contain;
 	position: relative;
-	top: 8px;
+	top: 8px;	
 	
 	
 }
 
-#maintour #uparrow .UpcomingEvents{
+#maintour .UpcomingEvents{
 	background-color: #0A1938; 
 	line-height: 50px;
 	opacity:0.7;
@@ -42,33 +32,35 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	margin-top: 10%;;
+	margin-top: 10%;
+	;
 }
 .EventDate{
-	width: 40%;
+	width: 100%;
 	background-color:  #2FC5D6;
 	opacity:0.6;
-	margin: 0px auto;
-	text-align: center;
-	line-height: 140px;
+	margin: auto 8px auto 0px;
+	padding:16px 0px;
 }
 #fxevent{
-	width: 50%;
-	margin: auto;
+	width: 100%;
+	height: 100%;
 	display: flex;
-	line-height: 70px;
 	flex-direction: column;
+	
 }
 .EventName{
 	width: 100%;  
 	background-color:  #2FC5D6;
 	opacity:0.6;
 	margin-bottom: 8px;
+	
 }
 .EventBand{
 	width: 100%;
 	background-color:  #2FC5D6;
 	opacity:0.6;
+	
 }
 
 .EventName span{
@@ -76,6 +68,7 @@
 	font-weight:bold;	
 	font-size: 25px;
 	opacity:1.0;	
+	padding: 16px;
 }
 
 .EventBand span{
@@ -83,16 +76,19 @@
 	font-weight:bold;	
 	text-transform: uppercase;
 	font-size: 20px;	
+	padding: 16px;
 }
 .EventDate span{	
 	color:#0A1938;
 	opacity:1.0;
 	font-weight:bold;	
 	font-size: 28px;
+	padding: 16px;
 	
 }
 #left,#right{
 	cursor: pointer;
+	margin:auto 32px;
 }
 
 
@@ -129,8 +125,8 @@
 	display: flex;
 	justify-content: flex-end;
 		
-}
-#fx-icon{
+	}
+	#fx-icon{
 	position: absolute;
 	right: 0px;
 	
@@ -152,10 +148,10 @@
 			
 	}
 	.Icons span.row #socialmediabuttons{
-			width: 101.667px;
+		width: 101.667px;
 	}   
 	.Icons span.row #musicbuttons{
-			width: 164px;
+		width: 164px;
 	}
 	.Icons span.row ul li{
 	
@@ -167,16 +163,16 @@
 	object-fit: contain;/*Controls the size of Social Media Icons*/
 	}
 	#maintour{
-			margin-top:8vh;
-			max-width: 596px;
-			max-height: 361px;
-			min-width: 596px;
-			min-height: 361px;
-			position: absolute;
-			left: 28%;
-			display: flex;
-			flex-direction: column;
-			padding: 0px 16px;
+		margin-top:8vh;
+		max-width: 596px;
+		max-height: 361px;
+		min-width: 596px;
+		min-height: 361px;
+		position: absolute;
+		left: 28%;
+		display: flex;
+		flex-direction: column;
+		padding: 0px 16px;
 	}
 
 	
@@ -251,15 +247,25 @@
 		height: 100vh;
 	}
 	#maintour{
-			margin: 0px auto;
-			margin-top: 30vh;
-			display: flex;
-			flex-direction: column;
-			padding: 0px 16px;
-			width: 100vw;
-			min-height: 361px;
-			max-height: 361px      
+		margin: 0px auto;
+		margin-top: 30vh;
+		display: flex;
+		flex-direction: column;
+		padding: 0px 16px;
+		width: 100vw;
+		min-height: 361px;
+		max-height: 361px;      
 	}
+	
+	.EventName span{
+		font-size: 18px;
+	}
+	.EventBand span{
+		font-size: 18px;	
+	}
+	.EventDate span{	
+		font-size: 18px;
+		}
 	
 	
 	

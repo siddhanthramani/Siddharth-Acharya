@@ -22,7 +22,7 @@
 /*********** Large devices only **********/
 @media (min-width: 1200px) {
 	body{/*Makes the image cover the body */
-		background: url("../images/BG_Story.png") no-repeat center fixed;
+		background: url("../Siddharth/images/BG_Story.png") no-repeat center fixed;
         background-size:cover;
 		width: 100vw;
         height: 100vh;	
@@ -79,9 +79,10 @@
     overflow: scroll ;/*If text overflows, then scroll*/
     overflow-x: hidden;/*Hides the width scroll*/
     overflow-y: hidden;
-    margin-top: 36px;
+    margin-top: 20px;
     font-size: 16px;
     font-weight: 900;
+    
     }
     #main-content{ 
     display: flex;/*Makes it possible for items to stick to right*/
