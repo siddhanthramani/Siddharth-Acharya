@@ -333,7 +333,7 @@ body {
 		width: 100px;
 		position: fixed;
 		border: 0px;
-		transform: rotate(270deg) translate(-20px,-36px );
+		transform: rotate(270deg) translate(-36px,-36px );
 		
 		
 	  /*Makes rotated image translate bby right dimensions*/
