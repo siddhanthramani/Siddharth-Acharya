@@ -55,10 +55,7 @@
 		background: url("../images/BG_Media.png") no-repeat center  fixed;
 		background-size:cover; 
 		width: 100vw;
-		height: 100vh;
-		
-	
-		
+		height: 100vh;	
 	}
     #main-content ul.menuitems{
 			padding-right:0;		
@@ -121,10 +118,10 @@
            
    }
    #mainmed .art{
-    min-width:50%;
+      
+         
    }
-    
-        
+     
 }
   
   /********** Medium devices and Small Devices only **********/
@@ -201,16 +198,16 @@
   
   
   /********** Extra small devices only **********/
-  @media (max-width: 767px) {
+  @media (max-width: 767px){
 	  /*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
-	div#main-content {
-		background: url("../images/BG_MobileTab.png") no-repeat center  fixed;
-		background-size: cover;
-		width: 100vw;
-		height: 100vh;
-		
-	
-        }
+        div#main-content {
+            background: url("../images/BG_MobileTab.png") no-repeat center  fixed;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+            
+        
+            }
         #mainmed{
             margin-top:30vh;
             border-width: 10px;

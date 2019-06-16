@@ -33,14 +33,14 @@
 	flex-direction: row;
 	flex-wrap: nowrap;
 	margin-top: 10%;
-	;
 }
 .EventDate{
 	width: 100%;
 	background-color:  #2FC5D6;
 	opacity:0.6;
-	margin: auto 8px auto 0px;
+	margin-right: 8px;
 	padding:16px 0px;
+	height: auto;
 }
 #fxevent{
 	width: 100%;
@@ -238,7 +238,7 @@
 
 
 /********** Extra small devices only **********/
-@media (max-width: 767px) {
+@media (min-width:460px) and (max-width: 767px) {
 	/*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
 	div#main-content {
 		background: url("../images/BG_MobileTab.png") no-repeat center  fixed;
@@ -267,6 +267,53 @@
 		font-size: 18px;
 		}
 	
+	
+	
+}
+@media (max-width:459px){
+
+	div#main-content {
+		background: url("../images/BG_MobileTab.png") no-repeat center  fixed;
+		background-size: cover;
+		width: 100vw;
+		height: 100vh;
+	}
+	#maintour{
+		margin: 0px ;
+		margin-top: 30vh;
+		display: flex;
+		flex-direction: column;
+		padding: 0px 16px;
+		min-width:100vw;
+		width: 100vw;
+		min-height: 361px;
+		max-height: 361px;      
+	}
+	
+	#fxvent{
+		margin-right: 2px;
+	}
+	.EventDate{
+		margin-left: 2px;
+	}
+	#maintour{
+		padding: 0px;
+	}
+	.EventName span{
+		font-size: 14px;
+	}
+	.EventBand span{
+		font-size: 14px;	
+	}
+	.EventDate span{	
+		font-size: 14px;
+	}
+	#maintour img.arrow{
+		margin: 0px;	
+	}
+	#left,#right{
+		margin:auto 2px;
+	}
 	
 	
 }

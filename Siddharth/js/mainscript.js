@@ -110,45 +110,46 @@ document.addEventListener("DOMContentLoaded",
 
         var docimgleave = document.querySelectorAll(".Icons ul li");
 
-        for (j = 0; j < docimgenter.length; j++) {
-            if (j == 0) {
-                docimgleave[j].addEventListener("mouseleave", iimgleave);
-                docimgleave[j].addEventListener("click", iimgleave);
-                docimgleave[j].addEventListener("dblclick", iimgleave);
-            }
-            else if (j == 1) {
-                docimgleave[j].addEventListener("mouseleave", fbimgleave);
-                docimgleave[j].addEventListener("click", fbimgleave);
-                docimgleave[j].addEventListener("dblclick", fbimgleave);
-            }
-            else if (j == 2) {
-                docimgleave[j].addEventListener("mouseleave", timgleave);
-                docimgleave[j].addEventListener("click", timgleave);
-                docimgleave[j].addEventListener("dblclick", timgleave);
-            }
-            else if (j == 3) {
-                docimgleave[j].addEventListener("mouseleave", amimgleave);
-                docimgleave[j].addEventListener("click", amimgleave);
-                docimgleave[j].addEventListener("dblclick", amimgleave);
-            }
-            else if (j == 4) {
-                docimgleave[j].addEventListener("mouseleave", simgleave);
-                docimgleave[j].addEventListener("click", simgleave);
-                docimgleave[j].addEventListener("dblclick", simgleave);
-            }
-            else if (j == 5) {
-                docimgleave[j].addEventListener("mouseleave", bcimgleave);
-                docimgleave[j].addEventListener("click", bcimgleave);
-                docimgleave[j].addEventListener("dblclick", bcimgleave);
-            }
-            else if (j == 6) {
-                docimgleave[j].addEventListener("mouseleave", scimgleave);
-                docimgleave[j].addEventListener("click", scimgleave);
-                docimgleave[j].addEventListener("dblclick", scimgleave);
-            }
+        // for (j = 0; j < docimgenter.length; j++) {
+        //     if (j == 0) {
+        //         docimgleave[j].addEventListener("mouseleave", iimgleave);
+        //         docimgleave[j].addEventListener("click", iimgleave);
+        //         docimgleave[j].addEventListener("dblclick", iimgleave);
+        //     }
+        //     else if (j == 1) {
+        //         docimgleave[j].addEventListener("mouseleave", fbimgleave);
+        //         docimgleave[j].addEventListener("click", fbimgleave);
+        //         docimgleave[j].addEventListener("dblclick", fbimgleave);
+        //     }
+        //     else if (j == 2) {
+        //         docimgleave[j].addEventListener("mouseleave", timgleave);
+        //         docimgleave[j].addEventListener("click", timgleave);
+        //         docimgleave[j].addEventListener("dblclick", timgleave);
+        //     }
+        //     else if (j == 3) {
+        //         docimgleave[j].addEventListener("mouseleave", amimgleave);
+        //         docimgleave[j].addEventListener("click", amimgleave);
+        //         docimgleave[j].addEventListener("dblclick", amimgleave);
+        //     }
+        //     else if (j == 4) {
+        //         docimgleave[j].addEventListener("mouseleave", simgleave);
+        //         docimgleave[j].addEventListener("click", simgleave);
+        //         docimgleave[j].addEventListener("dblclick", simgleave);
+        //     }
+        //     else if (j == 5) {
+        //         docimgleave[j].addEventListener("mouseleave", bcimgleave);
+        //         docimgleave[j].addEventListener("click", bcimgleave);
+        //         docimgleave[j].addEventListener("dblclick", bcimgleave);
+        //     }
+        //     else if (j == 6) {
+        //         docimgleave[j].addEventListener("mouseleave", scimgleave);
+        //         docimgleave[j].addEventListener("click", scimgleave);
+        //         docimgleave[j].addEventListener("dblclick", scimgleave);
+        //     }
 
 
-        }
+
+        // }
 
 
 
