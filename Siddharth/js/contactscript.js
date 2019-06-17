@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded",
                     document.getElementById("maincontact").style.display = "none";
                     document.getElementById("contactstory").style.display = "none";
                     var bo = document.querySelector("body");
-                    bo.style.background = "url('../Siddharth/images/BG_MobileTab.png') no-repeat center  fixed";
+                    bo.style.background = "url('../Siddharth/images/BG_MobileTab.jpg') no-repeat center  fixed";
                     bo.style.backgroundSize = "cover";
 
                 }
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded",
                     document.getElementById("maincontact").style.display = "block";
                     document.getElementById("contactstory").style.display = "block";
                     var bo = document.querySelector("body");
-                    bo.style.background = "url('../Siddharth/images/BG_MobileTab.png') no-repeat center  fixed";
+                    bo.style.background = "url('../Siddharth/images/BG_MobileTab.jpg') no-repeat center  fixed";
                     bo.style.backgroundSize = "cover";
 
 
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded",
                 document.getElementById("maincontact").style.display = "block";
                 document.getElementById("contactstory").style.display = "block";
                 var bo = document.querySelector("body");
-                bo.style.background = "url('../Siddharth/images/BG_Contact.png') no-repeat center  fixed";
+                bo.style.background = "url('../Siddharth/images/BG_Contact.jpg') no-repeat center  fixed";
                 bo.style.backgroundSize = "cover";
             }
         }

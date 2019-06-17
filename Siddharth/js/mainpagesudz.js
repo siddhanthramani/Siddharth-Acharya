@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded",
                     document.getElementById("upcomingevents").style.display = "none";
                     document.getElementById("event").style.display = "none";
                     var bo = document.querySelector("body");
-                    bo.style.background = "url('../images/BG_MobileTab.png') no-repeat center  fixed";
+                    bo.style.background = "url('../images/BG_MobileTab.jpg') no-repeat center  fixed";
                     bo.style.backgroundSize = "cover";
 
                 }
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded",
                     document.getElementById("upcomingevents").style.display = "block";
                     document.getElementById("event").style.display = "block";
                     var bo = document.querySelector("body");
-                    bo.style.background = "url('../images/BG_MobileTab.png') no-repeat center  fixed";
+                    bo.style.background = "url('../images/BG_MobileTab.jpg') no-repeat center  fixed";
                     bo.style.backgroundSize = "cover";
 
 
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded",
                 document.getElementById("upcomingevents").style.display = "block";
                 document.getElementById("event").style.display = "block";
                 var bo = document.querySelector("body");
-                bo.style.background = "url('../images/BG_Tour.png') no-repeat center  fixed";
+                bo.style.background = "url('../images/BG_Tour.jpg') no-repeat center  fixed";
                 bo.style.backgroundSize = "cover";
             }
         }

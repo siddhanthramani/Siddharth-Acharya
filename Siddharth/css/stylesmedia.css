@@ -52,7 +52,7 @@
 @media (min-width: 1200px) {
     body{/*Makes the image cover the body */
         
-		background: url("../images/BG_Media.png") no-repeat center  fixed;
+		background: url("../images/BG_Media.jpg") no-repeat center  fixed;
 		background-size:cover; 
 		width: 100vw;
 		height: 100vh;	
@@ -127,7 +127,7 @@
   /********** Medium devices and Small Devices only **********/
   @media (min-width: 768px) and (max-width: 1199px) {
 	div#main-content {
-		background: url("../images/BG_Media.png") no-repeat center  fixed;
+		background: url("../images/BG_Media.jpg") no-repeat center  fixed;
 		background-size: cover;
 		width: 100vw;
         height: 100vh;
@@ -189,6 +189,10 @@
     #mainmed .art{
         width: 340px;
         margin: 0px;
+    /*Allows scrolling on iOS Devices */
+        -webkit-overflow-scrolling: touch;
+        overflow-y: scroll;
+        position: fixed;
     }
     
     
@@ -201,7 +205,7 @@
   @media (max-width: 767px){
 	  /*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
         div#main-content {
-            background: url("../images/BG_MobileTab.png") no-repeat center  fixed;
+            background: url("../images/BG_MobileTab.jpg") no-repeat center  fixed;
             background-size: cover;
             width: 100vw;
             height: 100vh;
@@ -244,6 +248,10 @@
         #mainmed .art{
             width: 340px;
             margin: 0px;
+            /*Allows scrolling on iOS Devices */
+            -webkit-overflow-scrolling: touch;
+            overflow-y: scroll;
+            position:fixed;
         }
 		
   }

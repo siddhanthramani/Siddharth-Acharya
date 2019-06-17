@@ -31,7 +31,7 @@
     /*********** Large devices only **********/
     @media (min-width: 1200px) {
         body{/*Makes the image cover the body */
-            background: url("../images/BG_Contact.png") no-repeat center fixed;
+            background: url("../images/BG_Contact.jpg") no-repeat center fixed;
             background-size:cover; 
             width: 100vw;
             height: 100vh;	
@@ -105,7 +105,7 @@
       /********** Medium devices and Small Devices  **********/
       @media (min-width: 768px) and (max-width: 1199px) {
         div#main-content {
-            background: url("../images/BG_Contact.png") no-repeat center  fixed;
+            background: url("../images/BG_Contact.jpg") no-repeat center  fixed;
             background-size: cover;
             width: 100vw;
             height: 100vh;
@@ -180,7 +180,7 @@
       @media (max-width: 767px) {
           /*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
         div#main-content {
-            background: url("../images/BG_MobileTab.png") no-repeat center fixed;
+            background: url("../images/BG_MobileTab.jpg") no-repeat center fixed;
             background-size: cover;
             width: 100vw;
             height: 100vh;

@@ -87,7 +87,7 @@ body {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 	body{/*Makes the image cover the body */
-		background: url("../images/BG_LandingPage.png") no-repeat center fixed;
+		background: url("../images/BG_LandingPage.jpg") no-repeat center fixed;
 		background-size:cover; 
 		width: 100vw;
 		height: 100vh;
@@ -220,7 +220,7 @@ body {
   /********** Medium devices and Small Devices only **********/
   @media (min-width: 768px) and (max-width: 1199px) {
 	div#main-content {
-		background: url("../images/BG_LandingPage.png") no-repeat center  fixed;
+		background: url("../images/BG_LandingPage.jpg") no-repeat center  fixed;
 		background-size: cover;
 		position: relative;
 		width: 100vw;
@@ -308,7 +308,7 @@ body {
   @media (max-width: 767px) {
 	/*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
 	div#main-content {
-	  background: url("../images/BG_LandingPage.png") no-repeat center  fixed;
+	  background: url("../images/BG_LandingPageMob.jpg") no-repeat center  fixed;
 	  background-size: cover;
 	  width: 100vw;
 	  height: 100vh;
