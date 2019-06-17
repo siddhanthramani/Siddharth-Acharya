@@ -208,7 +208,7 @@
             
         
             }
-        #mainmed{
+        /* #mainmed{
             margin-top:30vh;
             border-width: 10px;
             border-style:groove;
@@ -226,7 +226,24 @@
         #mainmed .art{
             width:350px;
             margin: 0px;
+        } */
+        #mainmed{
+            margin-top:30vh;
+            border-width: 10px;
+            border-style:groove;
+            border-color: #0A1938;
+            min-width: max-content ;
+            max-width: max-content;
+            min-height: 50vh;
+            max-height: 50vh;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 4px 16px;   
+            overflow-x: hidden;
         }
-        
+        #mainmed .art{
+            width: 340px;
+            margin: 0px;
+        }
 		
   }
