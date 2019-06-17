@@ -26,7 +26,7 @@ body {
 /*In desktop mode menu items have no underline and have color on hover*/
 #Home a:hover,#Story a:hover,#Videos a:hover,#Media a:hover,#Contact a:hover,#Tour a:hover{
 	text-decoration: none;
-	color: aquamarine;
+	color: white;
 	cursor: pointer;
 	
 }
@@ -87,7 +87,7 @@ body {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 	body{/*Makes the image cover the body */
-		background: url("../images/BG_LandingPage.jpg") no-repeat center fixed;
+		background: url("../images/Artboard\ 1.jpg") no-repeat center fixed;
 		background-size:cover; 
 		width: 100vw;
 		height: 100vh;
@@ -220,7 +220,7 @@ body {
   /********** Medium devices and Small Devices only **********/
   @media (min-width: 768px) and (max-width: 1199px) {
 	div#main-content {
-		background: url("../images/BG_LandingPage.jpg") no-repeat center  fixed;
+		background: url("../images/Artboard\ 1.jpg") no-repeat center  fixed;
 		background-size: cover;
 		position: relative;
 		width: 100vw;
@@ -318,12 +318,13 @@ body {
  	 }
   
  	 #fx-container{
-	  margin-top: 5vh;/*Sets margintop pf brand and menu as required*/
- 	 }
+	  margin-top: 6vh;	/*Sets margintop of brand and menu as required*/
+	  }
+	  
  	 #fx-menu{
-	  width: 100%;
-	  bottom: 0px;/*Makes the menu items gravitate to bottom*/
-	  margin-top: 10vh;
+	  width: 100%;/*Makes the menu items gravitate to bottom*/
+	  position: absolute;
+	  bottom:0;
  	 }
   
   	.menuxs{
@@ -343,7 +344,8 @@ body {
 	  position: absolute;
 	  right: 0px;
 	  display: fixed;
-  	}
+	  }
+	  
 	#brandlogo{ 	
 	  background-color: #0A1938;
 	  opacity: 0.7;
@@ -356,7 +358,7 @@ body {
   
 	}
 	#close{
-		position: absolute;
+		position: fixed;
 		float: right;
 		right: 0px;
 		top:0px;
@@ -376,11 +378,10 @@ body {
 
 	  
 	  #fx-menu ul.menuitems{
-	  background-color:#2FC5D6;
-	  color: white;
-	  opacity: 0.6;	
+	  background:rgba(47, 197, 214, 0.4);
+	  color: aquamarine;
 	  min-width: max-content;
-	  max-width: 30vw;
+	  max-width: 25vw;
 	  margin-left: auto;
 	  margin-right: auto;
 	  text-align: center;
@@ -388,16 +389,20 @@ body {
 	  margin-bottom: 0px;/*Remove default*/
 
 	  }
+
 	#Home a,#Story a,#Videos a,#Media a,#Contact a,#Tour a{
-		color:#0A1938;
+		color:#2FC5D6;
 		text-transform: uppercase;
-		font-size: medium;
+		font-size:20px;
+		font-weight:bold;
 		
 	}
 	
   	#fx-menu ul.menuitems li{
-		padding: 1px 0px;
-  	}
+		padding: 9px 0px;
+
+	  }
+	  
   	#fx-menu .Icons ul a img{
 		max-width: 25px;
 		height: 25px;
@@ -452,13 +457,13 @@ body {
   	.Iconcool{	
 	  background-color:#2FC5D6;
 	  color: lightblue;
-	  opacity: 0.6;
+	  opacity: 0.4;
 	  min-width: 122.78px;
-	  max-width: 30vw;
+	  max-width: 25vw;
 	  margin-left: auto;
 	  margin-right: auto;
 	  height: 48px;	
-	 
+	  bottom:0px;
 		  
   	}
   

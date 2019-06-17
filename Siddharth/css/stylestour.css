@@ -19,7 +19,7 @@
 #maintour .UpcomingEvents{
 	background-color: #0A1938; 
 	line-height: 50px;
-	opacity:0.7;
+	opacity:0.8;
 	width:60%;
 	margin:auto;
 }
@@ -32,12 +32,12 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	margin-top: 10%;
+	margin-top: 6%;
 }
 .EventDate{
 	width: 100%;
 	background-color:  #2FC5D6;
-	opacity:0.6;
+	opacity:0.8;
 	margin-right: 8px;
 	padding:16px 0px;
 	height: auto;
@@ -52,21 +52,21 @@
 .EventName{
 	width: 100%;  
 	background-color:  #2FC5D6;
-	opacity:0.6;
+	opacity:0.8;
 	margin-bottom: 8px;
 	
 }
 .EventBand{
 	width: 100%;
 	background-color:  #2FC5D6;
-	opacity:0.6;
+	opacity:0.8;
 	
 }
 
 .EventName span{
 	color:#0A1938;
 	font-weight:bold;	
-	font-size: 25px;
+	font-size: 22px;
 	opacity:1.0;	
 	padding: 16px;
 }
@@ -75,14 +75,14 @@
 	color:#0A1938;
 	font-weight:bold;	
 	text-transform: uppercase;
-	font-size: 20px;	
+	font-size: 22px;	
 	padding: 16px;
 }
 .EventDate span{	
 	color:#0A1938;
 	opacity:1.0;
 	font-weight:bold;	
-	font-size: 28px;
+	font-size: 22px;
 	padding: 16px;
 	
 }
@@ -110,7 +110,7 @@
 @media (min-width: 1200px) {
 	body{/*Makes the image cover the body */
 			
-	background: url("../images/BG_Tour.jpg") no-repeat center  fixed;
+	background: url("../images/Artboard\ 4.jpg") no-repeat center  fixed;
 	background-size:cover; 
 	width: 100vw;
 	height: 100vh;
@@ -181,7 +181,7 @@
 /********** Medium devices and Small Devices only **********/
 @media (min-width: 768px) and (max-width: 1199px) {
 	div#main-content {
-		background: url("../images/BG_Tour.jpg") no-repeat center  fixed;
+		background: url("../images/Artboard\ 4.jpg") no-repeat center  fixed;
 		background-size: cover;
 		width: 100vw;
 		height: 100vh;
