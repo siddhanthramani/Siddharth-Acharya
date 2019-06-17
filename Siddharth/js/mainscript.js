@@ -176,7 +176,7 @@ document.addEventListener("DOMContentLoaded",
                     mc.style.opacity = "0.7";
 
                     var bo = document.querySelector("body");
-                    bo.style.background = "url('../Siddharth/images/BG_LandingPage.png') no-repeat center  fixed";
+                    bo.style.background = "url('../Siddharth/images/BG_LandingPageMob.jpg') no-repeat center  fixed";
                     bo.style.backgroundSize = "cover";
 
                 }
@@ -190,7 +190,7 @@ document.addEventListener("DOMContentLoaded",
 
                     mc.style.backgroundColor = "transparent";
                     mc.style.opacity = "1";
-                    // mc.style.background = "url('../images/BG_LandingPage.png') no-repeat center  fixed";
+                    // mc.style.background = "url('../images/BG_LandingPage.jpg') no-repeat center  fixed";
                     // mc.style.backgroundSize = "cover";
                     // var bo = document.querySelector("body");
                     // bo.style.background = "none";

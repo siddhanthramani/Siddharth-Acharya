@@ -78,7 +78,7 @@ body {
 @media (min-width: 1200px) {
 	body{/*Makes the image cover the body */
 		/*Added so as to keep BG fixed for each browser and screen size*/
-		background: url("../images/BG_desktop.png") no-repeat center center fixed;
+		background: url("../images/BG_desktop.jpg") no-repeat center center fixed;
 		-webkit-background-size: cover;
     	-moz-background-size: cover;
     	-o-background-size: cover;	
@@ -111,7 +111,7 @@ body {
   @media (min-width: 992px) and (max-width: 1199px) {
 	div#main-content {
 		/*Added so as to keep BG fixed for each browser and screen size*/
-		background: url("../images/BG_desktop.png") no-repeat center center fixed;
+		background: url("../images/BG_desktop.jpg") no-repeat center center fixed;
 		-webkit-background-size: cover;
     	-moz-background-size: cover;
     	-o-background-size: cover;	
@@ -147,7 +147,7 @@ body {
 	div#main-content {
 		/*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
 		/*Added so as to keep BG fixed for each browser and screen size*/
-		background: url("../images/BG_desktop.png") no-repeat center center fixed;
+		background: url("../images/BG_desktop.jpg") no-repeat center center fixed;
 		-webkit-background-size: cover;
     	-moz-background-size: cover;
     	-o-background-size: cover;	
@@ -164,7 +164,7 @@ body {
   @media (max-width: 767px) {
 	  /*Makes the image cover the maincontent AND makes maincontent extend to height and width of view port */
 	div#main-content {
-		background: url("../images/BG_Tablet&Mobile.png") no-repeat center center fixed;
+		background: url("../images/BG_Tablet&Mobile.jpg") no-repeat center center fixed;
 		background-size: cover;
 		width: 100vw;
 		height: 100vh;
