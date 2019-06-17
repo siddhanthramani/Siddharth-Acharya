@@ -79,31 +79,31 @@ document.addEventListener("DOMContentLoaded",
 
 
         var j;
-        for (j = 0; j < docimgenter.length; j++) {
-            if (j == 0) {
-                docimgenter[j].addEventListener("mouseenter", iimgenter);
-            }
-            else if (j == 1) {
-                docimgenter[j].addEventListener("mouseenter", fbimgenter);
-            }
-            else if (j == 2) {
-                docimgenter[j].addEventListener("mouseenter", timgenter);
-            }
-            else if (j == 3) {
-                docimgenter[j].addEventListener("mouseenter", amimgenter);
-            }
-            else if (j == 4) {
-                docimgenter[j].addEventListener("mouseenter", simgenter);
-            }
-            else if (j == 5) {
-                docimgenter[j].addEventListener("mouseenter", bcimgenter);
-            }
-            else if (j == 6) {
-                docimgenter[j].addEventListener("mouseenter", scimgenter);
-            }
+        // for (j = 0; j < docimgenter.length; j++) {
+        //     if (j == 0) {
+        //         docimgenter[j].addEventListener("mouseenter", iimgenter);
+        //     }
+        //     else if (j == 1) {
+        //         docimgenter[j].addEventListener("mouseenter", fbimgenter);
+        //     }
+        //     else if (j == 2) {
+        //         docimgenter[j].addEventListener("mouseenter", timgenter);
+        //     }
+        //     else if (j == 3) {
+        //         docimgenter[j].addEventListener("mouseenter", amimgenter);
+        //     }
+        //     else if (j == 4) {
+        //         docimgenter[j].addEventListener("mouseenter", simgenter);
+        //     }
+        //     else if (j == 5) {
+        //         docimgenter[j].addEventListener("mouseenter", bcimgenter);
+        //     }
+        //     else if (j == 6) {
+        //         docimgenter[j].addEventListener("mouseenter", scimgenter);
+        //     }
 
 
-        }
+        // }
 
 
 
