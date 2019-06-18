@@ -180,7 +180,7 @@
         max-height: max-content;/*Wraps around content*/
         height: 60vh;
         width: 100vw;
-        position: absolute;
+        position: fixed;
         top: 30vh;
         overflow: scroll ;
         overflow-x: hidden;
